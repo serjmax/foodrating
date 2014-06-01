@@ -1,0 +1,26 @@
+.menu-item-block{
+	li{
+		&:hover,
+		&:focus { background: $f-dropdown-list-hover-bg; }
+	}	
+}
+.menu-item-term{
+	font-size: 1rem;
+	font-weight: 400;
+	color: $body-font-color;
+	display: block;
+}
+.subtext{
+	font-size: 0.7rem;
+	color: $body-font-color * 1.5;
+	position: relative;
+}
+
+.menu-item-icon{
+	float: left;
+	height: 40px;
+	margin-right: 5px;
+	overflow: hidden;
+	width: 40px;
+	border-radius: 3px;
+}
