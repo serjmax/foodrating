@@ -1,9 +1,12 @@
-#login-block{
+.login-block{
 	width: 310px;
-	height: 500px;
+	margin-left: -155px;
 	background-color: #fff;
+	padding-top: 8px;
+	padding-bottom: 8px;
 }
 
+.btn-vk,
 .btn-facebook {
 	padding: 9px 18px;
 	font-size: 0.9rem;
@@ -14,12 +17,19 @@
 	white-space: normal;
 	width: 100%;
 	margin-bottom: 6.25px;
-	background-color: #4063B3;
 	border: 1px solid #224084;
 	color: #FFF;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.18),inset 0 0 1px 1px rgba(255, 255, 255, 0.09);
 }
+
+.btn-vk{
+	background-color: #4d75a3;
+}
+.btn-facebook{
+	background-color: #4063B3;
+}
+
 
 .btn-facebook:hover, .btn-facebook:focus {
 	background-color: #4368BE;
@@ -28,23 +38,6 @@
 	color: white;
 }
 
-
-.btn-vk {
-	padding: 9px 18px;
-	font-size: 0.9rem;
-	padding-left: 50px;
-	position: relative;
-	overflow: hidden;
-	display: block;
-	white-space: normal;
-	width: 100%;
-	margin-bottom: 6.25px;
-	background-color: #4d75a3;
-	border: 1px solid #224084;
-	color: #FFF;
-	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
-	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.18),inset 0 0 1px 1px rgba(255, 255, 255, 0.09);
-}
 
 .btn-vk:hover, .btn-vk:focus {
 	background-color: #5F80A7;
@@ -66,28 +59,31 @@
 	cursor: pointer;
 }
 
-.btn .icon {
-border-right: 1px solid #40598B;
-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.09);
-font-style: normal;
-font-weight: normal;
-line-height: 1;
-position: absolute;
-top: 0;
-bottom: 0;
-left: 0;
-font-size: 42px;
-text-align: right;
-padding-top: 0.07em;
-padding-right: 0.2em;
-width: 1em;
+.login-icon {
+	border-right: 1px solid #40598B;
+	line-height: 1;
+	position: absolute;
+	top: -2px;
+	bottom: 0;
+	left: 0px;
+	font-size: 42px;
+	width: 40px;
 }
 
 .vk-logo{
 	background-image: url(../images/icons/vk.svg);
 	background-size: 33px;
+	background-repeat: no-repeat;
+	background-position: 3px 4px;
 }
 
 .devider{
 	margin: 10px 0 0 0;
+}
+
+.forgot-password{
+	font-size: 11px;
+	margin-bottom: 10px;
+	position: relative;
+	top: -10px;
 }

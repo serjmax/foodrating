@@ -154,7 +154,7 @@ $close-reveal-modal-class: "close-reveal-modal" !default;
       dialog, .#{$reveal-modal-class} {
         @include reveal-modal-style(false, $reveal-modal-padding * 1.5, false, $box-shadow: false, $top-offset: $reveal-position-top);
 
-        &.tiny  { @include reveal-modal-base(false, 30%); }
+        &.tiny  { @include reveal-modal-base(false, 24%); }
         &.small { @include reveal-modal-base(false, 40%); }
         &.medium  { @include reveal-modal-base(false, 60%); }
         &.large { @include reveal-modal-base(false, 70%); }

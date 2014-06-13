@@ -14,12 +14,12 @@
 
 	<body>
 
-		<div id="login-block">
+		<section id="login-block">
 			<div class="row">
 				<div class="small-12 columns">
 					<a href="" class="btn btn-facebook">
 						<span class="icon-container">
-						<i class="icon fi-social-facebook"></i>
+						<i class="login-icon fi-social-facebook"></i>
 						</span>
 						<span class="text-container">
 						Войти через аккаунт Facebook
@@ -38,7 +38,7 @@
 				<div class="small-12 columns">
 					<a href="" class="btn btn-vk">
 						<span class="icon-container">
-						<i class="icon vk-logo"></i>
+						<i class="login-icon vk-logo"></i>
 						</span>
 						<span class="text-container">
 						Войти через аккаунт Вконтакте
@@ -61,33 +61,21 @@
 				<div class="large-12 columns">
 					<input type="text" placeholder="Пароль">
 				</div>
-				<div class="small-12 columns">
+				<div class="small-12 columns forgot-password">
 					<a href="" class="">Забыли пароль?</a>
 				</div>
 				<div class="small-12 columns">
-					<a href="" class="button expand small">Войти</a>
+					<a href="" class="button expand radius tiny">Войти</a>
 				</div>
 			  </div>
 			</form>
-		</div>
-		<div class="row">
-			<div class="small-12 columns">
-				<div class="fb-login-button" data-max-rows="1" data-size="xlarge" data-show-faces="true" data-auto-logout-link="true"></div>
-
-				<a href="#" data-reveal-id="login-block" class="button radius tiny">Отправить</a>
-								<div id="login-block" class="reveal-modal xlarge" data-reveal style="top: 10px">
-									<a href="https://www.facebook.com/dialog/oauth?client_id=138566025676&amp;redirect_uri=https%3A%2F%2Fwww.airbnb.ru%2Fauthenticate&amp;scope=email%2Cuser_birthday%2Cuser_likes%2Cuser_education_history%2Cuser_hometown%2Cuser_interests%2Cuser_activities%2Cuser_location" class="fb-button fb-blue btn icon-btn btn-block btn-large large padded-btn-block row-space-1 btn-facebook" data-populate_uri="" data-redirect_uri="https://www.airbnb.ru/authenticate">
-										<span class="icon-container">
-										<i class="icon fi-social-facebook"></i>
-										</span>
-										<span class="text-container">
-										Войти через аккаунт Facebook
-										</span>
-									</a>
-									<a class="close-reveal-modal">&#215;</a>
-								</div>
+			<div class="row">
+				<div class="small-12 columns">
+					<div class="fb-login-button" data-max-rows="1" data-size="xlarge" data-show-faces="true" data-auto-logout-link="true">
+					</div>
+				</div>
 			</div>
-		</div>
+		</section>
 
 
 

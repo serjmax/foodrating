@@ -2,10 +2,11 @@
 <html class="no-js" lang="ru">
 	<head>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="viewport" content="wdith=device-width, initial-scale=1.0" />
 		<title>FOODRATING - Найди самое вкусное в своем городе!</title>
 		<link rel="shortcut icon" href="images/favicon.ico">
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,800,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="stylesheets/app.css" />
 		<link rel="stylesheet" href="images/icons/foundation-icons/foundation-icons.css" />
 		<script src="js/modernizr/modernizr.js"></script>
@@ -13,7 +14,6 @@
 
 
 
-<<<<<<< HEAD
 	<body style="background-color: #fff;">
 		<div class="fixed">
 			<nav class="top-bar wide-screen" data-topbar="">
@@ -30,152 +30,346 @@
 							<li>
 								<form id="search-top-container">
 									<div class="row">
-										<div class="small-10 columns">
-											<input id="search-top" data-dropdown="tinyDrop2" type="search" placeholder="Найди самое вкусное">
-											<ul id="tinyDrop2" class="custom-dropdown-container-class" data-dropdown-content="" style="position: absolute; top: 72.1875px; left: -99999px;">
-												<li>
-													<a href="">
-														<div class="menu-item-icon">
-															<img src="images/icons/icon-star.svg">
-														</div>
-														<span class="menu-item-term">Лучшее рядом</span>
-														<span class="subtext">Лучшие предложения блюд рядом с тобой</span>
-													</a>
-												</li>
-												<li>
-													<a href="">
-														<div class="menu-item-icon">
-															<img src="images/icons/icon-star.svg">
-														</div>
-														<span class="menu-item-term">Самые вкусные блюда</span>
-														<span class="subtext">Самое вкусное в твоем городе</span>
-													</a>
-													
-												</li>
-												<li>
-													<a href="">
-														<div class="menu-item-icon">
-															<img src="images/icons/icon-pop-up.svg">
-														</div>
-														<span class="menu-item-term">Популярные</span>
-														<span class="subtext">Блюда набирающие популяроность</span>
-													</a>
-													
-												</li>
-												<li>
-													<a href="">
-														<div class="menu-item-icon">
-															<img src="images/icons/icon-new.svg">
-														</div>
-														<span class="menu-item-term">Новые</span>
-														<span class="subtext">Свежие предложения</span>
-													</a>
-													
-												</li>
-												<li>
-													<a href="">
-														<div class="menu-item-icon">
-															<img src="images/icons/icon-sale.svg">
-														</div>
-														<span class="menu-item-term">Спецпредложения</span>
-													</a>	
-												</li>
-											</ul>
+										<div class="small-9 columns">
+											<input id="search-top" type="search" placeholder="Найди самое вкусное">
 										</div>
-										<div class="small-2 columns">
+										<div class="small-3 columns">
 											<a href="#" class="alert button search-button"></a>
 										</div>
 									</div>
+								
 								</form>
 							</li>
-							<li>
-								
-								
 						</ul>
+						<button class="tiny radius login">ВОЙТИ</button>
 					</div>
 				</div>
 			</nav>
 		</div>
 		
-		<script src="js/jquery/jquery.js"></script>
-		<script src="js/foundation.js"></script>
-=======
-	<body>
+		<section class="show-for-small-only">
+			<div class="small-map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d18439.988020633427!2d20.499403616392836!3d54.70964949092555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1396186580616" width="100%" height="100%" frameborder="0" style="border:0"></iframe>
+			</div>
+		</section>	
 
-	<div class="menu-item">
-		<ul class="menu-item-block">
-			<li>
-				
+
+		<div class="row wrapper wide-screen">
+
+			<section class="small-12 medium-8 large-5 columns leftside-search">
+				<div class="row">
+					
+					<div class="small-12 medium-6 large-6 columns">
+						<div class="subtitle small-text-center">Выбрано: 83 блюда</div>
+					</div>
+					<div class="small-12 medium-6 large-6 columns">
+						<ul class="inline-list radius right">
+						 	<li>
+								<a href="#" data-reveal-id="myModal" class="button radius tiny"><i class="fi-filter"></i>фильтр</a>
+								<div id="myModal" class="reveal-modal xlarge" data-reveal style="top: 10px">
+									<section class="row filter">
+										<h2>Расширенный поиск</h2>
+										<div style="top: 10px;" class="small-7 columns">выбрано: 0 блюд</div>
+										<div class="small-5 columns">
+											<button class="radius right tiny">показать</button>
+										</div>
+										<div class="small-12 columns filter-subheader">стоимость
+										</div>
+										<div class="small-12 columns">
+											<button class="badge">$</button>
+											<button class="badge">$$</button>
+											<button class="badge">$$$</button>
+											<button class="badge">$$$$</button>
+										</div>
+										<div class="small-12 columns filter-subheader">тип блюда
+										</div>
+										<div class="small-12 columns">
+											<button class="badge active">выбрать все</button>
+											<button class="badge">закуски</button>
+											<button class="badge">салаты</button>
+											<button class="badge">первое</button>
+											<button class="badge">второе</button>
+											<button class="badge">десерт</button>
+											<button class="badge">напитки</button>
+										</div>
+										<div class="small-12 columns filter-subheader">кухня
+										</div>
+										<div class="small-12 columns">
+											<button class="badge">выбрать все</button>
+											<button class="badge">авторскаяторская</button>
+											<button class="badge">азербайджанская</button>
+											<button class="badge">ериканская</button>
+											<button class="badge">арабская</button>
+											<button class="badge">армянская</button>
+											<button class="badge">балканская</button>
+											<button class="badge">вьетнамская</button>
+											<button class="badge">грузинская</button>
+											<button class="badge">еврейская</button>
+											<button class="badge">европейская</button>
+											<button class="badge">индийская</button>
+											<button class="badge">интернациональная</button>
+											<button class="badge">испанская</button>
+											<button class="badge">итальянская</button>
+											<button class="badge">кавказская</button>
+											<button class="badge">китайская</button>
+											<button class="badge">корейская</button>
+											<button class="badge">латиноамериканская</button>
+											<button class="badge">ливанская</button>
+											<button class="badge">мексиканская</button>
+											<button class="badge">немецкая</button>
+											<button class="badge">осетинская</button>
+											<button class="badge">русская</button>
+											<button class="badge">средиземноморская</button>
+											<button class="badge">тайская</button>
+											<button class="badge">татарская</button>
+											<button class="badge">турецкая</button>
+											<button class="badge">узбекская</button>
+											<button class="badge">украинская</button>
+											<button class="badge">французская</button>
+											<button class="badge">чешская</button>
+											<button class="badge">японская</button>
+										</div>
+									</section>
+									<a class="close-reveal-modal">&#215;</a>
+								</div>
+						 	</li>
+							<li>
+						  		<a href="#" class="button radius tiny" data-dropdown="tinyDrop2"><i class="fi-align-right"></i>сортировать</a>
+						  		<ul id="tinyDrop2" class="tiny f-dropdown" data-dropdown-content="" style="position: absolute; top: 72.1875px; left: -99999px;">
+						  			<li><a href="#">по рейтингу</a></li>
+						  			<li><a href="#">по расстоянию</a></li>
+						  			<li><a href="#">новые</a></li>
+						  		</ul>
+						 	</li>
+						</ul>
+					</div>
+				</div>
+
+				<section class="panel ad">
 					<a href="">
-						<div class="menu-item-icon">
-							<svg width="320" height="320">
-							 <title>personnage</title>
-							 <defs>
-							  <linearGradient gradientUnits="userSpaceOnUse" y2="725.04077" x2="1340.2604" y1="725.04077" x1="1307.7538" id="linearGradient21360" xlink:href="#linearGradient21354"/>
-							  <linearGradient id="linearGradient21354">
-							   <stop stop-color="#ffffff" id="stop21356" offset="0"/>
-							   <stop stop-color="#ffffff" stop-opacity="0" id="stop21358" offset="1"/>
-							  </linearGradient>
-							 </defs>
-							 <metadata id="metadata3341">image/svg+xmlpersonnageAntoine BardelliCreatives Commons 2.0 Paternit   / Licence Art LibreFrhttp://bardelli.fr/</metadata>
-							 <g>
-							  <title>Layer 1</title>
-							  <g id="layer1">
-							   <g display="inline" id="g9726">
-							    <g id="g5713">
-							     <path fill="#000000" fill-rule="nonzero" stroke="#ffffff" stroke-width="1.743247" stroke-miterlimit="4" id="rect9675" d="m281.055756,8.77058c-18.454865,1.597986 -34.327988,18.04574 -37.395569,40.115223l-3.399597,25.157005c-0.682739,1.209328 -1.439606,2.340317 -2.039749,3.626236l-65.72551,140.969872c-2.65976,5.697876 -4.215363,11.674149 -4.75943,17.451263l-35.582428,0c-23.29892,0 -42.154976,18.629593 -42.154976,41.928345l0,133.037506c0,23.298706 18.856056,42.154968 42.154976,42.154968l61.872635,0c14.16246,12.815308 32.794586,20.624176 53.486954,20.624176l84.309967,0c44.266541,0 79.777161,-35.510681 79.777161,-79.77713l0,-137.117004c0,-44.266464 -35.51062,-79.777191 -79.777161,-79.777191l-26.063568,0l16.091431,-116.946064c3.505829,-25.222069 -10.953613,-48.025035 -32.636108,-51.220562c-2.710327,-0.399721 -5.522614,-0.454608 -8.159027,-0.226201l0,-0.000442z"/>
-							     <rect fill="#000000" fill-rule="nonzero" stroke="#ffffff" stroke-width="1.771654" transform="matrix(0,7.252469544146462,-7.252469544146462,0,-41.50239627605619,7189.5076189884185) " ry="4.634307" y="-73.898647" x="-966.89909" height="24.954496" width="9.980928" id="rect9623-6"/>
-							     <rect fill="#000000" fill-rule="nonzero" stroke="#ffffff" stroke-width="1.771654" transform="matrix(0,7.252469544146462,-7.252469544146462,0,-41.50239627605619,7189.5076189884185) " ry="4.990464" y="-77.746258" x="-956.63297" height="28.802109" width="9.980928" id="rect9623-6-5"/>
-							     <rect fill="#000000" fill-rule="nonzero" stroke="#ffffff" stroke-width="1.771654" id="rect9671" width="9.980928" height="25.614088" x="-946.36686" y="-74.558243" ry="4.990464" transform="matrix(0,7.252469544146462,-7.252469544146462,0,-41.50239627605619,7189.5076189884185) "/>
-							     <rect fill="#000000" fill-rule="nonzero" stroke="#ffffff" stroke-width="1.771654" transform="matrix(0,7.252469544146462,-7.252469544146462,0,-41.50239627605619,7189.5076189884185) " ry="4.990464" y="-71.150356" x="-936.10075" height="22.206205" width="9.980928" id="rect9673"/>
-							    </g>
-							   </g>
-							  </g>
-							 </g>
-							</svg>
+						<div class="row ad__header">
+							<div class="small-6 columns ad__name">
+								<span>ресторан "Турандот"</span>
+							</div>
+							<div class="small-6 columns">
+								<span class="ad__badge">Реклама</span>
+							</div>
 						</div>
-						<span class="menu-item-term">Лучшее рядом</span>
-						<span class="subtext">Лучшие предложения блюд рядом с тобой</span>
+						<div class="row">
+							<div class="small-12 medium-9 columns">
+								<p>Ресторан "Турандот" отличается своим хэнд-мейд дизайном и по-настоящему домашним уютом. В нашем меню: японская, европейская и корейская кухни. Много вегетарианских блюд!</p>
+								<hr>
+								<p class="ad__offer">Только сегодня, купи две пиццы и получи третию в подарок!</p>
+							</div>
+							<div class="small-3 columns hide-for-small-only">
+								<img class="ad__thumb" src="images/demo/kropotkin/meal-1/meal-1-thumb.jpg">
+							</div>
+						</div>
 					</a>
-	
+				</section>
+
+
+				<section class="panel main-element">
+					<div class="row">
+						<div class="small-12 medium-8 columns">
+							<div class="row">
+								<div class="main-element__restuarant small-6 columns">
+									<a href=""><span>ресторан "Турандот"</span></a>
+								</div>
+								<div class="main-element__distantion small-6 columns">
+									<span style="float:right;">расстояние: 0,3 км</span>
+								</div>
+							</div>
+							<div class="row main-element__meal">
+								<div class="small-12 columns main-element__meal-name">
+									<a href="#">
+										<span>Стейк гриль из мраморной говядины</span>
+									</a>
+								</div>
+								<div class="small-3 columns main-element__rating">
+									<div class="main-element__rating-box">
+										<div class="main-element__rating-rating">
+											<svg fill="FFF" width="25px" height="24px" viewBox="-2 4 50 40" enable-background="new 0 0 47 61.725" xml:space="preserve">
+												<g>
+													<path stroke="#FF0000" stroke-width="2" stroke-miterlimit="10" d="M46,23.5C46,35.919,35.921,46,23.5,46
+														C11.08,46,1,35.919,1,23.5S11.08,1,23.5,1C35.921,1,46,11.081,46,23.5z"></path>
+													<path fill="#FF0000" d="M16.09,16.018c0,2.293-1.492,4.162-3.316,4.162c-1.82,0-3.31-1.869-3.31-4.162
+														c0-2.275,1.489-4.142,3.31-4.142C14.598,11.876,16.09,13.742,16.09,16.018z"></path>
+													<path fill="#FF0000" d="M37.677,16.018c0,2.293-1.481,4.162-3.306,4.162c-1.844,0-3.324-1.869-3.324-4.162
+														c0-2.275,1.48-4.142,3.324-4.142C36.195,11.876,37.677,13.742,37.677,16.018z"></path>
+													<path fill="none" stroke="#FF0000" stroke-width="2" stroke-miterlimit="10" d="M9.375,36.625
+														c4.25-11.271,23.5-12.563,28.625-0.117"></path>
+												</g>
+											</svg>
+										</div>
+										<div class="main-element__rating-rating-right">0.6</div>
+									</div>	
+								</div>
+								<div class="small-3 columns main-element__rating main-element__rating-leftborder">
+									<div class="main-elemen__rating-part text-center">189</div>
+									<div class="main-elemen__rating-part text-center">голоса</div>
+								</div>
+								<div class="small-3 columns main-element__rating main-element__rating-leftborder">
+									<div class="main-elemen__rating-part text-center">189</div>
+									<div class="main-elemen__rating-part text-center">коммента</div>
+								</div>
+								<div class="small-3 columns main-element__rating main-element__rating-leftborder">
+									<div class="main-element__rating-price text-center">
+										<span class="label radius">350 Р</span></div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="small-12 columns">
+									<span class="main-element__comment">Алина: очень вкусный стейк, сочный. за такую цену можно просто обожраться.</span>
+								</div>
+								<div class="small-12 columns">
+									<span class="main-element__friends-header">твои друзья оценили это блюдо:</span>
+									<div class="main-element__friends">
+										<span class="main-element__friends-avatar">
+											<img src="images/demo/friends/COWYA3GFYYVUP5TS.jpg" alt="">
+										</span>
+										<span class="main-element__friends-avatar">
+											<img src="images/demo/friends/12UNXZXZITK0FFRC.jpg" alt="">
+										</span>
+										<span class="main-element__friends-avatar">
+											<img src="images/demo/friends/0LNPBTV4PHDKOKYC.jpg" alt="">
+										</span>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+						<div class="small-4 columns hide-for-small-only">
+							<a href="food-page.html">
+								<img class="search-page-thumb" src="images/demo/kropotkin/meal-1/meal-1-thumb.jpg">
+							</a>
+						</div>
+					</div>
+				</section>
+
+				<section class="panel main-element">
+					<div class="row">
+						<div class="small-12 medium-8 columns">
+							<div class="row">
+								<div class="main-element__restuarant small-6 columns">
+									<span>ресторан "Турандот"</span>
+								</div>
+								<div class="main-element__distantion small-6 columns">
+									<span style="float:right;">расстояние: 0,3 км</span>
+								</div>
+							</div>
+							<div class="row main-element__meal">
+								<div class="small-12 columns main-element__meal-name">
+									<a href="#">
+										<span>Стейк гриль из мраморной говядины</span>
+									</a>
+								</div>
+								<div class="small-3 columns main-element__rating">
+									<div class="main-element__rating-box">
+										<div class="main-element__rating-rating">
+											<svg fill="FFF" width="25px" height="24px" viewBox="-2 4 50 40" enable-background="new 0 0 47 61.725" xml:space="preserve">
+												<g>
+													<path stroke="#FF0000" stroke-width="2" stroke-miterlimit="10" d="M46,23.5C46,35.919,35.921,46,23.5,46
+														C11.08,46,1,35.919,1,23.5S11.08,1,23.5,1C35.921,1,46,11.081,46,23.5z"></path>
+													<path fill="#FF0000" d="M16.09,16.018c0,2.293-1.492,4.162-3.316,4.162c-1.82,0-3.31-1.869-3.31-4.162
+														c0-2.275,1.489-4.142,3.31-4.142C14.598,11.876,16.09,13.742,16.09,16.018z"></path>
+													<path fill="#FF0000" d="M37.677,16.018c0,2.293-1.481,4.162-3.306,4.162c-1.844,0-3.324-1.869-3.324-4.162
+														c0-2.275,1.48-4.142,3.324-4.142C36.195,11.876,37.677,13.742,37.677,16.018z"></path>
+													<path fill="none" stroke="#FF0000" stroke-width="2" stroke-miterlimit="10" d="M9.375,36.625
+														c4.25-11.271,23.5-12.563,28.625-0.117"></path>
+												</g>
+											</svg>
+										</div>
+										<div class="main-element__rating-rating-right">0.6</div>
+									</div>	
+								</div>
+								<div class="small-3 columns main-element__rating main-element__rating-leftborder">
+									<div class="main-elemen__rating-part text-center">189</div>
+									<div class="main-elemen__rating-part text-center">голоса</div>
+								</div>
+								<div class="small-3 columns main-element__rating main-element__rating-leftborder">
+									<div class="main-elemen__rating-part text-center">189</div>
+									<div class="main-elemen__rating-part text-center">коммента</div>
+								</div>
+								<div class="small-3 columns main-element__rating main-element__rating-leftborder">
+									<div class="main-element__rating-price text-center">
+										<span class="label radius">$$$</span>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="small-12 columns">
+									<section class="panel offer">
+										<a href="">
+											<div class="row offer__header">
+												<div class="small-6 columns ad__name">
+													<span class="offer__badge">Акция</span>
+												</div>
+												<div class="small-6 columns">
+													
+												</div>
+											</div>
+											<div class="row">
+												<div class="small-12 columns">
+													<p>Только сегодня, купи две пиццы и получи третию в подарок!</p>
+												</div>
+											</div>
+										</a>
+									</section>
+								</div>
+								<div class="small-12 columns">
+									<span class="main-element__friends-header">твои друзья пробовали это блюдо:</span>
+									<div class="main-element__friends">
+										<span class="main-element__friends-avatar">
+											<img src="images/demo/friends/COWYA3GFYYVUP5TS.jpg" alt="">
+										</span>
+										<span class="main-element__friends-avatar">
+											<img src="images/demo/friends/12UNXZXZITK0FFRC.jpg" alt="">
+										</span>
+										<span class="main-element__friends-avatar">
+											<img src="images/demo/friends/0LNPBTV4PHDKOKYC.jpg" alt="">
+										</span>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+						<div class="small-4 columns hide-for-small-only">
+							<a href="food-page.html">
+								<img class="search-page-thumb" src="images/demo/kropotkin/meal-1/meal-1-thumb.jpg">
+							</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="small-12 columns">
+							
+						</div>
+					</div>
+				</section>
+
 				
-			</li>
-			<li>
-				<a href="">
-					<span class="menu-item-term">Самое лучшее</span>
-					<span class="subtext">Самое вкусное в твоем городе</span>
-				</a>
 				
-			</li>
-			<li>
-				<a href="">
-					<span class="menu-item-term">Популярные</span>
-					<span class="subtext">Блюда набирающие популяроность</span>
-				</a>
+				<a href="#" class="button expand tiny show-more-btn"><i class="fi-arrows-out"></i>показать ещё</a>
+
+
 				
-			</li>
-			<li>
-				<a href="">
-					<span class="menu-item-term">Новые</span>
-					<span class="subtext">Свежие предложения</span>
-				</a>
-				
-			</li>
-			<li>
-				<a href="">
-					<span class="menu-item-term">Спецпредложения</span>
-				</a>	
-			</li>
-		</ul>
-	</div>
+					
+						
+			</section>
+
+			<section class="small-12 medium-4 large-7 columns hide-for-small-only">
+				<div class="main-map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d18439.988020633427!2d20.499403616392836!3d54.70964949092555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1396186580616" width="100%" height="100%" frameborder="0" style="border:0"></iframe>
+				</div>
+			</section>
+		</div>
+		
 		
 
-		<script src="bower_components/jquery/jquery.js"></script>
-		<script src="bower_components/foundation/js/foundation.min.js"></script>
->>>>>>> 0871fa05d1200a20bdd931414d583350a69b2553
+		<script src="js/jquery/jquery.js"></script>
+		<script src="js/foundation.min.js"></script>
 		<script src="js/app.js"></script>
 		<script src="js/foundation.orbit.js"></script>
 		<script src="js/foundation.topbar.js"></script>
-
 	</body>
 </html>
