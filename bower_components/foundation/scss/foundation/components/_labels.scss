@@ -6,12 +6,12 @@
 $include-html-label-classes: $include-html-classes !default;
 
 // We use these to style the labels
-$label-padding: rem-calc(4 8 6) !default;
+$label-padding: rem-calc(4 8 4) !default;
 $label-radius: $global-radius !default;
 
 // We use these to style the label text
-$label-font-sizing: rem-calc(16) !default;
-$label-font-weight: normal !default;
+$label-font-sizing: rem-calc(13) !default;
+$label-font-weight: 100 !default;
 $label-font-color: #fff !default;
 $label-font-color-alt: #fff !default;
 $label-font-family: $body-font-family !default;

@@ -15,7 +15,7 @@ $panel-function-factor: -11% !default;
 $panel-border-color: scale-color($panel-bg, $lightness: $panel-function-factor) !default;
 
 // We use these to set default inner padding and bottom margin
-$panel-margin-bottom: rem-calc(15) !default;
+$panel-margin-bottom: rem-calc(8) !default;
 $panel-padding: rem-calc(10) !default;
 
 // We use these to set default font colors

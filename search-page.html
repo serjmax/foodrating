@@ -65,7 +65,7 @@
 					<div class="small-12 medium-6 large-6 columns">
 						<ul class="inline-list radius right">
 						 	<li>
-								<a href="#" data-reveal-id="myModal" class="button radius tiny"><i class="fi-filter"></i>фильтр</a>
+								<a href="#" data-reveal-id="myModal" class="fr-button"><i class="fi-filter"></i>фильтр</a>
 								<div id="myModal" class="reveal-modal xlarge" data-reveal style="top: 10px">
 									<section class="row filter">
 										<h2>Расширенный поиск</h2>
@@ -134,7 +134,7 @@
 								</div>
 						 	</li>
 							<li>
-						  		<a href="#" class="button radius tiny" data-dropdown="tinyDrop2"><i class="fi-align-right"></i>сортировать</a>
+						  		<a href="#" class="fr-button" data-dropdown="tinyDrop2"><i class="fi-align-right"></i>сортировать</a>
 						  		<ul id="tinyDrop2" class="tiny f-dropdown" data-dropdown-content="" style="position: absolute; top: 72.1875px; left: -99999px;">
 						  			<li><a href="#">по рейтингу</a></li>
 						  			<li><a href="#">по расстоянию</a></li>
@@ -169,17 +169,17 @@
 				</section>
 
 
-				<section class="panel main-element">
+				<section class="panel main-element radius">
+
 					<div class="row">
-						<div class="small-12 medium-8 columns">
-							<div class="row">
-								<div class="main-element__restuarant small-6 columns">
-									<a href=""><span>ресторан "Турандот"</span></a>
-								</div>
-								<div class="main-element__distantion small-6 columns">
-									<span style="float:right;">расстояние: 0,3 км</span>
-								</div>
-							</div>
+						<div class="main-element__restuarant small-12 columns">
+							<a href=""><span>ресторан "Турандот"</span></a>
+							<span class="main-element__distantion"><img src="images/icons/man.svg" alt=""> 0,3 км</span>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="small-12 medium-8 columns main-element__content">
 							<div class="row main-element__meal">
 								<div class="small-12 columns main-element__meal-name">
 									<a href="#">
@@ -220,7 +220,7 @@
 							</div>
 							<div class="row">
 								<div class="small-12 columns">
-									<span class="main-element__comment">Алина: очень вкусный стейк, сочный. за такую цену можно просто обожраться.</span>
+									<span class="main-element__comment">... очень вкусный стейк, сочный. за такую цену можно просто обожраться.</span>
 								</div>
 								<div class="small-12 columns">
 									<span class="main-element__friends-header">твои друзья оценили это блюдо:</span>
@@ -239,9 +239,9 @@
 								
 							</div>
 						</div>
-						<div class="small-4 columns hide-for-small-only">
-							<a href="food-page.html">
-								<img class="search-page-thumb" src="images/demo/kropotkin/meal-1/meal-1-thumb.jpg">
+						<div class="small-4 columns search-page-thumb hide-for-small-only">
+							<a class="th radius" href="food-page.html">
+								<img class="" src="images/demo/kropotkin/meal-1/meal-1-thumb.jpg">
 							</a>
 						</div>
 					</div>
@@ -357,7 +357,7 @@
 						
 			</section>
 
-			<section class="small-12 medium-4 large-7 columns hide-for-small-only">
+			<section class="small-12 medium-4 large-7 columns hide-for-small-only" style="width: 100%">
 				<div class="main-map">
 					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d18439.988020633427!2d20.499403616392836!3d54.70964949092555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1396186580616" width="100%" height="100%" frameborder="0" style="border:0"></iframe>
 				</div>
