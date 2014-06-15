@@ -5,8 +5,13 @@
 		<meta name="viewport" content="wdith=device-width, initial-scale=1.0" />
 		<title>FOODRATING - Найди самое вкусное в своем городе!</title>
 		<link rel="shortcut icon" href="images/favicon.ico">
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,800,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+		<style>
+		   @font-face {
+		    font-family: Open Sans; /* Гарнитура шрифта */
+			src: url(fonts/OpenSans-Light.ttf); /* Путь к файлу со шрифтом */
+		   }
+		</style>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="stylesheets/app.css" />
 		<link rel="stylesheet" href="images/icons/foundation-icons/foundation-icons.css" />
 		<script src="js/modernizr/modernizr.js"></script>
@@ -57,93 +62,105 @@
 		<div class="row wrapper wide-screen">
 
 			<section class="small-12 medium-8 large-5 columns leftside-search">
-				<div class="row">
-					
-					<div class="small-12 medium-6 large-6 columns">
-						<div class="subtitle small-text-center">Выбрано: 83 блюда</div>
+
+				<section class="panel filter-element radius">
+					<div class="row">	
+						<div class="small-12 columns">
+							<div class="subtitle">Выбрано: 83 блюда</div>
+						</div>
+						<div class="small-12 columns">
+							<ul class="inline-list left">
+								<li>
+									<a href="#" class="fr-button">По рейтингу</a>
+								</li>
+								<li>
+									<a href="#" class="fr-button">По расстоянию</a>
+								</li>
+								<li>
+									<a href="#" class="fr-button">Новые</a>
+								</li>
+							</ul>
+							<ul class="inline-list right">
+							 	<li>
+									<a href="#" data-reveal-id="myModal" class="fr-button">фильтр</a>
+									<div id="myModal" class="reveal-modal xlarge" data-reveal style="top: 10px">
+										<section class="row filter">
+											<h2>Расширенный поиск</h2>
+											<div style="top: 10px;" class="small-7 columns">выбрано: 0 блюд</div>
+											<div class="small-5 columns">
+												<button class="radius right tiny">показать</button>
+											</div>
+											<div class="small-12 columns filter-subheader">стоимость
+											</div>
+											<div class="small-12 columns">
+												<button class="badge">$</button>
+												<button class="badge">$$</button>
+												<button class="badge">$$$</button>
+												<button class="badge">$$$$</button>
+											</div>
+											<div class="small-12 columns filter-subheader">тип блюда
+											</div>
+											<div class="small-12 columns">
+												<button class="badge active">выбрать все</button>
+												<button class="badge">закуски</button>
+												<button class="badge">салаты</button>
+												<button class="badge">первое</button>
+												<button class="badge">второе</button>
+												<button class="badge">десерт</button>
+												<button class="badge">напитки</button>
+											</div>
+											<div class="small-12 columns filter-subheader">кухня
+											</div>
+											<div class="small-12 columns">
+												<button class="badge">выбрать все</button>
+												<button class="badge">авторскаяторская</button>
+												<button class="badge">азербайджанская</button>
+												<button class="badge">американская</button>
+												<button class="badge">арабская</button>
+												<button class="badge">армянская</button>
+												<button class="badge">балканская</button>
+												<button class="badge">вьетнамская</button>
+												<button class="badge">грузинская</button>
+												<button class="badge">еврейская</button>
+												<button class="badge">европейская</button>
+												<button class="badge">индийская</button>
+												<button class="badge">интернациональная</button>
+												<button class="badge">испанская</button>
+												<button class="badge">итальянская</button>
+												<button class="badge">кавказская</button>
+												<button class="badge">китайская</button>
+												<button class="badge">корейская</button>
+												<button class="badge">латиноамериканская</button>
+												<button class="badge">ливанская</button>
+												<button class="badge">мексиканская</button>
+												<button class="badge">немецкая</button>
+												<button class="badge">осетинская</button>
+												<button class="badge">русская</button>
+												<button class="badge">средиземноморская</button>
+												<button class="badge">тайская</button>
+												<button class="badge">татарская</button>
+												<button class="badge">турецкая</button>
+												<button class="badge">узбекская</button>
+												<button class="badge">украинская</button>
+												<button class="badge">французская</button>
+												<button class="badge">чешская</button>
+												<button class="badge">японская</button>
+											</div>
+										</section>
+										<a class="close-reveal-modal">&#215;</a>
+									</div>
+							 	</li>
+							</ul>
+						</div>
+
+						<div class="small-12 columns filter-element__badges">
+							<button class="badge">американская<em>×</em></button>
+							<button class="badge">второе<em>×</em></button>
+							<button class="badge">$<em>×</em></button>
+						</div>					
 					</div>
-					<div class="small-12 medium-6 large-6 columns">
-						<ul class="inline-list radius right">
-						 	<li>
-								<a href="#" data-reveal-id="myModal" class="fr-button"><i class="fi-filter"></i>фильтр</a>
-								<div id="myModal" class="reveal-modal xlarge" data-reveal style="top: 10px">
-									<section class="row filter">
-										<h2>Расширенный поиск</h2>
-										<div style="top: 10px;" class="small-7 columns">выбрано: 0 блюд</div>
-										<div class="small-5 columns">
-											<button class="radius right tiny">показать</button>
-										</div>
-										<div class="small-12 columns filter-subheader">стоимость
-										</div>
-										<div class="small-12 columns">
-											<button class="badge">$</button>
-											<button class="badge">$$</button>
-											<button class="badge">$$$</button>
-											<button class="badge">$$$$</button>
-										</div>
-										<div class="small-12 columns filter-subheader">тип блюда
-										</div>
-										<div class="small-12 columns">
-											<button class="badge active">выбрать все</button>
-											<button class="badge">закуски</button>
-											<button class="badge">салаты</button>
-											<button class="badge">первое</button>
-											<button class="badge">второе</button>
-											<button class="badge">десерт</button>
-											<button class="badge">напитки</button>
-										</div>
-										<div class="small-12 columns filter-subheader">кухня
-										</div>
-										<div class="small-12 columns">
-											<button class="badge">выбрать все</button>
-											<button class="badge">авторскаяторская</button>
-											<button class="badge">азербайджанская</button>
-											<button class="badge">ериканская</button>
-											<button class="badge">арабская</button>
-											<button class="badge">армянская</button>
-											<button class="badge">балканская</button>
-											<button class="badge">вьетнамская</button>
-											<button class="badge">грузинская</button>
-											<button class="badge">еврейская</button>
-											<button class="badge">европейская</button>
-											<button class="badge">индийская</button>
-											<button class="badge">интернациональная</button>
-											<button class="badge">испанская</button>
-											<button class="badge">итальянская</button>
-											<button class="badge">кавказская</button>
-											<button class="badge">китайская</button>
-											<button class="badge">корейская</button>
-											<button class="badge">латиноамериканская</button>
-											<button class="badge">ливанская</button>
-											<button class="badge">мексиканская</button>
-											<button class="badge">немецкая</button>
-											<button class="badge">осетинская</button>
-											<button class="badge">русская</button>
-											<button class="badge">средиземноморская</button>
-											<button class="badge">тайская</button>
-											<button class="badge">татарская</button>
-											<button class="badge">турецкая</button>
-											<button class="badge">узбекская</button>
-											<button class="badge">украинская</button>
-											<button class="badge">французская</button>
-											<button class="badge">чешская</button>
-											<button class="badge">японская</button>
-										</div>
-									</section>
-									<a class="close-reveal-modal">&#215;</a>
-								</div>
-						 	</li>
-							<li>
-						  		<a href="#" class="fr-button" data-dropdown="tinyDrop2"><i class="fi-align-right"></i>сортировать</a>
-						  		<ul id="tinyDrop2" class="tiny f-dropdown" data-dropdown-content="" style="position: absolute; top: 72.1875px; left: -99999px;">
-						  			<li><a href="#">по рейтингу</a></li>
-						  			<li><a href="#">по расстоянию</a></li>
-						  			<li><a href="#">новые</a></li>
-						  		</ul>
-						 	</li>
-						</ul>
-					</div>
-				</div>
+				</section>
+				
 
 				<section class="panel ad">
 					<a href="">
