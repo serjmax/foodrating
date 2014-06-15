@@ -11,7 +11,7 @@ $topbar-bg-color: #fff !default;
 $topbar-bg: $topbar-bg-color !default;
 
 // Height and margin
-$topbar-height: 80px !default;
+$topbar-height: 54px !default;
 $topbar-margin-bottom: 0 !default;
 
 // Controlling the styles for the title in the top bar
@@ -99,6 +99,7 @@ $topbar-arrows: true !default; //Set false to remove the triangle icon from the 
       position: fixed;
       top: 0;
       z-index: 99;
+      height: $topbar-height;
 
       &.expanded:not(.top-bar) {
           overflow-y: auto;

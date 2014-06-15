@@ -35,11 +35,11 @@ $border-color: #CCCCCC;
 
 #search-top-container{
 	position: absolute;
-	height: 48px;
-	margin: 15px 0 0 40px;
+	height: 40px;
+	margin: 5px 0 0 40px;
 	color: $label-color;
 	border: solid 1px;
-	border-radius: $global-radius;
+	
 }
 @media screen and (max-width: 640px){
 	#search-top-container{
@@ -73,15 +73,16 @@ $border-color: #CCCCCC;
 
 #search-top{
 	border: none;
-	color: $body-font-color;
-	background-color: rgba(0, 0, 0, 0);
-	font-size: 0.9rem;
+	color: #808080;
+	background-color: #FFF;
+	font-size: 0.8rem;
 	border-radius: 0;
 	box-shadow: none;
 	padding-right: 8px;
+	font-weight: 100;
 
 	@media screen and (max-width: 640px){
-		padding-top: 8px;
+		padding-top: 3px;
 		font-size: 0.8rem;
 	}
 }
@@ -91,15 +92,12 @@ $border-color: #CCCCCC;
 	background-image: url("../images/icons/fi-magnifying-glass.svg");
 	background-repeat: no-repeat;
 	background-size: 2.2rem;
-	background-position: 12px 7px;
+	background-position: 12px;
 	float: right;
 	width: 60px;
-	height: 48px;
+	height: 38px;
 	padding: 0;
-	top: -1px !important;
-	right: -9px;
-	border-top-right-radius: 3px;
-	border-bottom-right-radius: 3px;
+	top: 0px !important;
 }
 @media only screen and (max-width: 640px){
 	.search-button{
@@ -317,13 +315,12 @@ header{
 .badge{
 	
 	border-radius: $global-radius;
-	padding: 4px 12px 6px 12px;
+	padding: 3px 12px 5px 12px;
 	font-size: 14px;
 	margin-bottom:4px !important;
-
-	background-color: $body-font-color * 1.8;
-	
+	background: linear-gradient(to top, #F5F5F5, #FFF);
 	color: $body-font-color;
+	border: solid 1px #ccc;
 }
 
 
@@ -518,17 +515,18 @@ header{
 	}
 
 	.filter-element__badges{
-		margin-left: 4px;
-		margin-bottom: 4px;
+		margin-left: 5px;
+		margin-bottom: 5px;
 
 		button:hover,
-		button:focus{
-			border-radius: 3px;
-			padding: 4px 6px 6px 12px;
+		button:focus,
+		button:active{
+			border-radius: $global-radius;
+			padding: 3px 6px 5px 12px;
 			font-size: 14px;
-			background-color: #E6E6E6;
-			color: #808080;
-			border: none;
+			background: linear-gradient(to top, #F5F5F5, #FFF);
+			color: $body-font-color;
+			border: solid 1px #ccc;
 		}
 
 		.badge{
@@ -539,7 +537,7 @@ header{
 		em{
 			position: relative;
 			margin-left: 14px;
-			color: $subtext-color;
+			color: #E0E0E0;
 			text-decoration: none;
 			font-size: 25px;
 			vertical-align: middle;
