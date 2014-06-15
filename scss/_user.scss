@@ -1,4 +1,6 @@
 $text-color: rgb(153, 153, 153);
+$subtext-color: #B3B3B3;
+$active-text-color: #00AAEC;
 $border-color: #CCCCCC;
 
 .wrapper{
@@ -12,6 +14,14 @@ $border-color: #CCCCCC;
 		padding-top: 15px;
 
 	}
+}
+
+.fr-button{
+  @include button($padding:$button-tny, $bg:$primary-color, $radius:true);
+  
+  border-width: 1px;
+  background: linear-gradient(to top, #007AFF, #43B3FD);
+  box-shadow: inset 0px 1px #A7D1FF;
 }
 
 .top-bar{
@@ -308,7 +318,7 @@ header{
 	
 	border-radius: $global-radius;
 	padding: 4px 12px 6px 12px;
-	font-size: 0.9em;
+	font-size: 14px;
 	margin-bottom:4px !important;
 
 	background-color: $body-font-color * 1.8;
@@ -430,11 +440,6 @@ header{
 	}
 }
 
-.panel:focus,
-.panel:hover{
-	background-color: #F5FBFD;
-}
-
 // Стили футера 
 
 .footer{
@@ -506,25 +511,94 @@ header{
 		margin-left: -4px;
 	}
 
+	.filter-element__button{
+		font-size: 14px;
+		padding-top: 3px;
+		padding-bottom: 5px;
+	}
+
 	.filter-element__badges{
-		margin-top: 10px;
+		margin-left: 4px;
+		margin-bottom: 4px;
+
+		button:hover,
+		button:focus{
+			border-radius: 3px;
+			padding: 4px 6px 6px 12px;
+			font-size: 14px;
+			background-color: #E6E6E6;
+			color: #808080;
+			border: none;
+		}
 
 		.badge{
 			margin-bottom: 0 !important;
+			padding-right: 6px;
 		}
 
 		em{
 			position: relative;
-			top: -15px;
-			margin-left: 12px;
-			color: #AAA;
+			margin-left: 14px;
+			color: $subtext-color;
 			text-decoration: none;
-			font-size: 30px;
+			font-size: 25px;
 			vertical-align: middle;
 			font-style: normal;
 			font-weight: 700;
-			height: 15px;
+			height: 16px;
 			display: inline-block;
+			line-height: 0.5;
+		}
+	}
+
+	.filter-element__sort{
+		
+		color: $subtext-color;
+		margin-top: 20px;
+		margin-bottom: -10px;
+		
+		.active{
+			box-shadow: inset 0 -2px $active-text-color;
+			font-weight: 400;
+		}
+
+		li{
+			margin-left: 0;
+			font-size: 12px;
+			
+		}
+		
+		.filter-element__sort_header{
+			padding-left: 5px;
+		}
+
+		.filter-element__sort_title{
+			padding-bottom: 5px;
+			padding-right: 10px;
+			padding-left: 10px;
+		}
+
+		a{
+			color: $active-text-color;
+		}
+
+		a:hover,
+		a:focus{
+			box-shadow: inset 0 -2px $active-text-color;
+			cursor: pointer;
+			text-decoration: none;
+		}
+		
+		.filter-element__sort_title_border__li{
+			border-left: solid 1px #CCC;
+			border-right: solid 1px #CCC;
+			height: 16px;
+			top: 1px;
+			position: relative;
+		}
+		.filter-element__sort_title_border{
+			top: -3px;
+			position: relative;
 		}
 	}
 
@@ -550,7 +624,7 @@ header{
 	}
 
 	.main-element__distantion{
-		color: #B3B3B3;
+		color: $subtext-color;
 		float: right;
 
 		img{

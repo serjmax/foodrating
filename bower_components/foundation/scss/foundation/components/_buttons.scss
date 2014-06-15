@@ -237,11 +237,3 @@ $button-disabled-opacity: 0.7 !default;
   }
 }
 
-.fr-button{
-  @include button($padding:$button-tny, $bg:$primary-color, $radius:true, $full-width:false, $disabled:false, $is-input:false, $is-prefix:false);
-  
-  border-width: 1px;
-  background: linear-gradient(to top, #007AFF, #43B3FD);
-  box-shadow: inset 0px 1px #A7D1FF;
-
-}

@@ -69,20 +69,9 @@
 							<div class="subtitle">Выбрано: 83 блюда</div>
 						</div>
 						<div class="small-12 columns">
-							<ul class="inline-list left">
-								<li>
-									<a href="#" class="fr-button">По рейтингу</a>
-								</li>
-								<li>
-									<a href="#" class="fr-button">По расстоянию</a>
-								</li>
-								<li>
-									<a href="#" class="fr-button">Новые</a>
-								</li>
-							</ul>
-							<ul class="inline-list right">
-							 	<li>
-									<a href="#" data-reveal-id="myModal" class="fr-button">фильтр</a>
+							<ul class="inline-list">
+								<li class="">
+									<a href="#" data-reveal-id="myModal" class="fr-button filter-element__button">фильтр</a>
 									<div id="myModal" class="reveal-modal xlarge" data-reveal style="top: 10px">
 										<section class="row filter">
 											<h2>Расширенный поиск</h2>
@@ -149,15 +138,33 @@
 										</section>
 										<a class="close-reveal-modal">&#215;</a>
 									</div>
-							 	</li>
+								</li>
+								
+								<li class="filter-element__badges"><button class="badge">американская<em>×</em></button></li>
+								<li class="filter-element__badges"><button class="badge">второе<em>×</em></button></li>
+								<li class="filter-element__badges"><button class="badge">$<em>×</em></button></li>
+								<li class="filter-element__badges"><button class="badge">американская<em>×</em></button></li>
+								<li class="filter-element__badges"><button class="badge">второе<em>×</em></button></li>
+								<li class="filter-element__badges"><button class="badge">$<em>×</em></button></li>
 							</ul>
 						</div>
-
-						<div class="small-12 columns filter-element__badges">
-							<button class="badge">американская<em>×</em></button>
-							<button class="badge">второе<em>×</em></button>
-							<button class="badge">$<em>×</em></button>
-						</div>					
+						<div class="small-12 columns filter-element__sort">
+							<ul class="inline-list">
+								<li class="filter-element__sort_title filter-element__sort_header">
+									сортирвать:
+								</li>
+								<li>
+									<a href="#" class="active filter-element__sort_title">По рейтингу</a>
+								</li>
+								<li class="">
+									<a href="#" class="filter-element__sort_title">По расстоянию</a>
+								</li>
+								<li>
+									<a href="#" class="filter-element__sort_title">Новые</a>
+								</li>
+							</ul>
+							
+						</div>						
 					</div>
 				</section>
 				
