@@ -296,8 +296,9 @@ header{
 	}
 
 	.active{
-		background-color: $primary-color;
+		background: $primary-color;
 		color: white;
+		border: solid 1px $primary-color;
 	}
 }
 
@@ -315,12 +316,14 @@ header{
 .badge{
 	
 	border-radius: $global-radius;
-	padding: 3px 12px 5px 12px;
+	padding: 6px 12px 7px 12px;
 	font-size: 14px;
-	margin-bottom:4px !important;
+	margin-bottom:4px;
 	background: linear-gradient(to top, #F5F5F5, #FFF);
 	color: $body-font-color;
 	border: solid 1px #ccc;
+	display: inline-block;
+	line-height: 1;
 }
 
 
@@ -510,24 +513,13 @@ header{
 
 	.filter-element__button{
 		font-size: 14px;
-		padding-top: 3px;
-		padding-bottom: 5px;
+		padding-top: 4px;
+		padding-bottom: 6px;
 	}
 
 	.filter-element__badges{
 		margin-left: 5px;
 		margin-bottom: 5px;
-
-		button:hover,
-		button:focus,
-		button:active{
-			border-radius: $global-radius;
-			padding: 3px 6px 5px 12px;
-			font-size: 14px;
-			background: linear-gradient(to top, #F5F5F5, #FFF);
-			color: $body-font-color;
-			border: solid 1px #ccc;
-		}
 
 		.badge{
 			margin-bottom: 0 !important;
@@ -545,7 +537,7 @@ header{
 			font-weight: 700;
 			height: 16px;
 			display: inline-block;
-			line-height: 0.5;
+			line-height: 0.6;
 		}
 	}
 
