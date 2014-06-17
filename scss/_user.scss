@@ -877,3 +877,157 @@ header{
 }
 
 
+.food-description{
+	border: none !important;
+	background-color: #fff;
+	box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.2);
+	padding: 0 0.500rem 0 0.625rem;
+
+	.food-description__cafe{
+		background: #F1F1F1;
+		height: 100px;
+		border-left: solid 1px $border-color;
+		box-shadow: inset 1px 0 #fff;
+	}
+
+	.food-description__cafe__destination{
+		border-left: solid 1px $border-color;
+		box-shadow: inset 1px 0 #fff;
+		height: 100px;
+		font-size: 25px;
+		color: $subtext-color;
+		padding: 34px 8px;
+
+		img{
+			margin-right: 10px;
+			height: 34px;
+		}
+	}
+
+	.food-description__cafe__name{
+		padding: 34px 8px;
+		font-size: 25px;
+	}
+
+	.food-description_left-side{
+		display: inline-block;
+		width: 305px;
+		background-color: lightblue;
+	}
+
+	.food-description_right-side{
+		display: inline-block;
+		width: 175px;
+		background-color: red;
+	}
+
+	.food-description__distantion{
+		color: $subtext-color;
+		float: right;
+
+		img{
+			position: relative;
+			margin-top: -10px;
+			top: 3px;
+			left: -3px;
+		}
+	}
+
+	.food-description__distantion,
+	.food-description__restuarant{
+		font-size: 12px;
+	}
+
+	.food-description__content{
+	}
+
+	.food-description__meal{
+		margin-top: 15px;
+	}
+
+	.food-description__rating{
+		border-color: $border-color;
+		color: #B3B3B3;
+		height: 34px;
+		margin-top: 25px;
+		font-size: 13px;
+	}
+
+	.food-description__meal-name{
+		padding: 10px;
+		font-size: 18px;
+		font-weight: 400;
+		min-height: 40px;
+		line-height: 1.2;
+	}
+
+	.food-description__rating-leftborder{
+		border-left: 1px solid;
+		border-color: $border-color;
+	}
+
+	.food-description__rating-price{
+
+		.inline-list{
+			margin: 0;
+		}
+
+		.filter-element__badges-title{
+			margin-bottom: 5px;
+			color: #B3B3B3;
+			font-size: 11px;
+		}
+	}
+
+	.food-description__rating-box{
+		margin: 0 auto;
+		width: 80px;
+
+		.food-description__rating-rating{
+			display: inline-block;
+			position: absolute;
+		}
+
+		.food-description__rating-rating-right{
+			display: inline-block;
+			font-weight: 600;
+			font-size: 28px;
+			color: red;
+			float: right;
+		}
+	}
+
+	.search-page-thumb {
+		float: right;
+		width: 150px;
+		height: 150px;
+		margin-top: 10px;
+	}
+
+	.food-description__comment{
+		font-size: 12px;
+		line-height: 1.2;
+	}
+	
+	.food-description__friends-header{
+		font-size: 12px;
+		line-height: 1.2;
+		color: #B3B3B3;
+		margin-top: 8px;
+		display: inline-block;
+	}
+
+	.food-description__friends{
+		margin-top: 5px;
+	}
+
+	.food-description__friends-avatar{
+		width: 35px;
+		height: 35px;
+		display: inline-block;
+
+		img{
+			border-radius: 3px;
+		}
+	}
+}

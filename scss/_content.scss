@@ -34,7 +34,7 @@
 .food-hero,
 .hero{
 	h2{
-		font-size: 2.2rem;
+		font-size: 2.8rem;
 		font-weight: 800;
 		line-height: 3rem;
 		color: white;
@@ -240,7 +240,8 @@
 }
 
 .all-menu{
-		margin-top: 20px;
+		position: relative;
+		top: 120px;
 		button{
 			margin: 0;
 		}
@@ -510,7 +511,7 @@
 
 .food__wrapper{
 	box-shadow: -1px 0 6px rgba(0,0,0,0.3), 1px 0 6px rgba(0,0,0,0.3);
-	background-color: #fff;
+	background: #F1F1F1;
 }
 
 .place__wrapper{
