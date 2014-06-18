@@ -8926,45 +8926,63 @@ header {
 /* line 1041, ../scss/_user.scss */
 .rate-panel .rate-panel__ul {
   margin: 15px;
+  min-width: 240px;
 }
-/* line 1044, ../scss/_user.scss */
+/* line 1045, ../scss/_user.scss */
 .rate-panel .rate-panel__ul li {
   margin-left: 0;
 }
-/* line 1049, ../scss/_user.scss */
+/* line 1050, ../scss/_user.scss */
 .rate-panel .rate-panel__face-1 {
   background: url(../images/icons/icon-ratefaces.svg) 8px 0;
   height: 47px;
   width: 45px;
   background-repeat: no-repeat;
 }
-/* line 1055, ../scss/_user.scss */
+/* line 1056, ../scss/_user.scss */
 .rate-panel .rate-panel__face-2 {
   background: url(../images/icons/icon-ratefaces.svg) -37px 0;
   height: 47px;
   width: 45px;
   background-repeat: no-repeat;
 }
-/* line 1061, ../scss/_user.scss */
+/* line 1062, ../scss/_user.scss */
 .rate-panel .rate-panel__face-3 {
   background: url(../images/icons/icon-ratefaces.svg) -82px 0;
   height: 47px;
   width: 45px;
   background-repeat: no-repeat;
 }
-/* line 1067, ../scss/_user.scss */
+/* line 1068, ../scss/_user.scss */
 .rate-panel .rate-panel__face-4 {
   background: url(../images/icons/icon-ratefaces.svg) -127px 0;
   height: 47px;
   width: 45px;
   background-repeat: no-repeat;
 }
-/* line 1073, ../scss/_user.scss */
+/* line 1074, ../scss/_user.scss */
 .rate-panel .rate-panel__face-5 {
   background: url(../images/icons/icon-ratefaces.svg) -172px 0;
   height: 47px;
   width: 45px;
   background-repeat: no-repeat;
+}
+
+/* line 1083, ../scss/_user.scss */
+.comment-element img {
+  border-radius: 60px;
+  max-height: 60px;
+}
+/* line 1088, ../scss/_user.scss */
+.comment-element .comment-details {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+/* line 1093, ../scss/_user.scss */
+.comment-element .comment-details .date {
+  font-weight: 100;
 }
 
 /* line 1, ../scss/_content.scss */
@@ -9448,16 +9466,7 @@ header {
   font-size: 1rem;
 }
 
-/* line 450, ../scss/_content.scss */
-.comment-details {
-  font-size: 0.7em;
-  font-weight: 600;
-  color: tomato;
-  margin-bottom: 15px;
-  display: inline-block;
-}
-
-/* line 460, ../scss/_content.scss */
+/* line 453, ../scss/_content.scss */
 .show-more {
   display: block;
   border: solid 1px white;
@@ -9465,12 +9474,12 @@ header {
   margin: 0px auto;
 }
 
-/* line 470, ../scss/_content.scss */
+/* line 463, ../scss/_content.scss */
 .adress ul {
   margin-bottom: 0;
 }
 
-/* line 474, ../scss/_content.scss */
+/* line 467, ../scss/_content.scss */
 .map {
   display: block;
   height: 200px;
@@ -9478,12 +9487,12 @@ header {
   margin-top: 20px;
 }
 
-/* line 481, ../scss/_content.scss */
+/* line 474, ../scss/_content.scss */
 .more-results {
   padding-top: 0;
 }
 
-/* line 485, ../scss/_content.scss */
+/* line 478, ../scss/_content.scss */
 .food-hero {
   z-index: 1;
   background-image: url(../images/demo/kropotkin/meal-1/meal-1.jpg);
@@ -9493,52 +9502,52 @@ header {
 }
 
 @media only screen and (max-width: 640px) {
-  /* line 493, ../scss/_content.scss */
+  /* line 486, ../scss/_content.scss */
   .food-hero {
     padding-top: 10px;
   }
 }
-/* line 499, ../scss/_content.scss */
+/* line 492, ../scss/_content.scss */
 .place-hero {
   height: 320px;
   padding-top: 50px;
 }
 
-/* line 504, ../scss/_content.scss */
+/* line 497, ../scss/_content.scss */
 .place-page-thumb {
   background-size: cover !important;
 }
 
-/* line 508, ../scss/_content.scss */
+/* line 501, ../scss/_content.scss */
 .bg-tantan {
   background: url(../images/3980.png);
 }
 
-/* line 512, ../scss/_content.scss */
+/* line 505, ../scss/_content.scss */
 .food__wrapper {
   box-shadow: -1px 0 6px rgba(0, 0, 0, 0.3), 1px 0 6px rgba(0, 0, 0, 0.3);
   background: #F1F1F1;
 }
 
-/* line 517, ../scss/_content.scss */
+/* line 510, ../scss/_content.scss */
 .place__wrapper {
   box-shadow: -1px 0 6px rgba(0, 0, 0, 0.3), 1px 0 6px rgba(0, 0, 0, 0.3);
   background-color: #fff;
   padding-top: 8px;
 }
 
-/* line 524, ../scss/_content.scss */
+/* line 517, ../scss/_content.scss */
 .chef img {
   float: left;
   margin-right: 15px;
   margin-bottom: 15px;
 }
-/* line 530, ../scss/_content.scss */
+/* line 523, ../scss/_content.scss */
 .chef .header {
   font-weight: 600;
   line-height: 2;
 }
-/* line 535, ../scss/_content.scss */
+/* line 528, ../scss/_content.scss */
 .chef .chef__content {
   margin-bottom: 15px;
 }
