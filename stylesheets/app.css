@@ -5508,10 +5508,6 @@ meta.foundation-mq-topbar {
   margin-bottom: 0;
   list-style: none;
 }
-/* line 138, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
-.top-bar .row {
-  max-width: none;
-}
 /* line 140, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar input {
   margin: 0 0 8px 0;
