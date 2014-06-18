@@ -121,9 +121,9 @@ $topbar-arrows: true !default; //Set false to remove the triangle icon from the 
     }
 
     .top-bar {
-      overflow: hidden;
-      height: $topbar-height;
-      line-height: $topbar-height;
+      // overflow: hidden;
+      // height: $topbar-height;
+      // line-height: $topbar-height;
       position: relative;
       background: $topbar-bg;
       margin-bottom: $topbar-margin-bottom;
@@ -137,7 +137,7 @@ $topbar-arrows: true !default; //Set false to remove the triangle icon from the 
 
       .row { max-width: none; }
 
-
+      input{ margin: 0 0 8px 0; }
 
     
 
@@ -414,7 +414,7 @@ $topbar-arrows: true !default; //Set false to remove the triangle icon from the 
       .top-bar {
         background: $topbar-bg;
         @include clearfix;
-        overflow: visible;
+        // overflow: visible;
 
         .toggle-topbar { display: none; }
 
