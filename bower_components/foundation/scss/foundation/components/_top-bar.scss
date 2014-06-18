@@ -137,32 +137,10 @@ $topbar-arrows: true !default; //Set false to remove the triangle icon from the 
 
       .row { max-width: none; }
 
-      form,
-      input { margin-bottom: 0; }
 
-      input { 
-        height: auto; 
-        padding-top: .35rem; 
-        padding-bottom: .35rem; 
-        font-size: $topbar-button-font-size; 
-        background: none;
-        border: none;
-        border: solid 1px white;
-
-      }
 
     
 
-
-      .button {
-        padding-top: .45rem;
-        padding-bottom: .35rem;
-        margin-bottom: 0;
-        font-size: $topbar-button-font-size;
-          // position: relative;
-          // top: -1px;
-
-      }
 
       // Title Area
       .title-area {

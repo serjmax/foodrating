@@ -1039,8 +1039,8 @@ header{
 	}
 
 	.rate-panel__ul{
-		margin: 15px;
-		min-width: 240px;
+		margin: 15px auto;
+		width: 225px;
 
 		li{
 			margin-left: 0;
@@ -1079,6 +1079,15 @@ header{
 	}
 }
 
+.comment-form{
+	margin-bottom: 15px;
+	.comment-form__triangle{
+		bottom: -10px;
+		left: 26px;
+		position: absolute;
+	}
+}
+
 .comment-element{
 	img{
 		border-radius: 60px;
@@ -1090,8 +1099,11 @@ header{
 		font-weight: 600;
 		margin-bottom: 10px;
 		display: inline-block;
-		.date{
-			font-weight: 100;
-		}
 	}
+	.date{
+			font-weight: 100;
+			font-size: 13px;
+			color: $subtext-color;
+			margin-left: 15px;
+		}
 }
