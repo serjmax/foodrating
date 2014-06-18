@@ -480,9 +480,6 @@ header{
 }
 
 .panel{
-	border-style: solid;
-	box-shadow: none;
-	background-color: #F5F5F5;
 
 }
 
@@ -595,11 +592,6 @@ header{
 }
 
 .main-element{
-	border: none !important;
-	background-color: #fff;
-	box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.2);
-
-	
 
 	.main-element_left-side{
 		display: inline-block;
@@ -1030,4 +1022,60 @@ header{
 			border-radius: 3px;
 		}
 	}
+}
+
+.rate-panel{
+	padding: 0;
+
+	.row{
+		margin: 0;
+	}
+
+	.rate-panel__leftside{
+		background: #7AC943;
+		font-size: 1rem;
+		color: #FFF;
+		padding: 31px;
+	}
+
+	.rate-panel__ul{
+		margin: 15px;
+
+		li{
+			margin-left: 0;
+		}
+	}
+
+	.rate-panel__face-1{
+		background: url(../images/icons/icon-ratefaces.svg) 8px 0;
+		height: 47px;
+		width: 45px;
+		background-repeat: no-repeat;
+	}
+	.rate-panel__face-2{
+		background: url(../images/icons/icon-ratefaces.svg) -37px 0;
+		height: 47px;
+		width: 45px;
+		background-repeat: no-repeat;
+	}
+	.rate-panel__face-3{
+		background: url(../images/icons/icon-ratefaces.svg) -82px 0;
+		height: 47px;
+		width: 45px;
+		background-repeat: no-repeat;
+	}
+	.rate-panel__face-4{
+		background: url(../images/icons/icon-ratefaces.svg) -127px 0;
+		height: 47px;
+		width: 45px;
+		background-repeat: no-repeat;
+	}
+	.rate-panel__face-5{
+		background: url(../images/icons/icon-ratefaces.svg) -172px 0;
+		height: 47px;
+		width: 45px;
+		background-repeat: no-repeat;
+	}
+
+
 }

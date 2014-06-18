@@ -8374,24 +8374,17 @@ header {
   border-bottom: solid 1px rgba(0, 0, 0, 0.2);
 }
 
-/* line 482, ../scss/_user.scss */
-.panel {
-  border-style: solid;
-  box-shadow: none;
-  background-color: #F5F5F5;
-}
-
-/* line 489, ../scss/_user.scss */
+/* line 486, ../scss/_user.scss */
 .show-more-btn {
   margin-bottom: 10px;
   margin-top: 10px;
 }
 
-/* line 494, ../scss/_user.scss */
+/* line 491, ../scss/_user.scss */
 .camera {
   background: #CFCACA;
 }
-/* line 496, ../scss/_user.scss */
+/* line 493, ../scss/_user.scss */
 .camera .fi-camera {
   font-size: 2.3rem !important;
   color: #fff !important;
@@ -8399,34 +8392,34 @@ header {
   top: 0 !important;
 }
 
-/* line 504, ../scss/_user.scss */
+/* line 501, ../scss/_user.scss */
 .filter-element {
   border: none !important;
   background-color: #fff;
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.2);
 }
-/* line 509, ../scss/_user.scss */
+/* line 506, ../scss/_user.scss */
 .filter-element .inline-list {
   margin-bottom: 0;
   margin-left: -4px;
 }
-/* line 514, ../scss/_user.scss */
+/* line 511, ../scss/_user.scss */
 .filter-element .filter-element__button {
   font-size: 14px;
   padding-top: 4px;
   padding-bottom: 6px;
 }
-/* line 520, ../scss/_user.scss */
+/* line 517, ../scss/_user.scss */
 .filter-element .filter-element__badges {
   margin-left: 5px;
   margin-bottom: 5px;
 }
-/* line 524, ../scss/_user.scss */
+/* line 521, ../scss/_user.scss */
 .filter-element .filter-element__badges .badge {
   margin-bottom: 0 !important;
   padding-right: 6px;
 }
-/* line 529, ../scss/_user.scss */
+/* line 526, ../scss/_user.scss */
 .filter-element .filter-element__badges em {
   position: relative;
   margin-left: 14px;
@@ -8440,44 +8433,44 @@ header {
   display: inline-block;
   line-height: 0.6;
 }
-/* line 544, ../scss/_user.scss */
+/* line 541, ../scss/_user.scss */
 .filter-element .filter-element__sort {
   color: #b3b3b3;
   margin-top: 20px;
   margin-bottom: -10px;
 }
-/* line 550, ../scss/_user.scss */
+/* line 547, ../scss/_user.scss */
 .filter-element .filter-element__sort .active {
   box-shadow: inset 0 -2px #00aaec;
   font-weight: 400;
 }
-/* line 555, ../scss/_user.scss */
+/* line 552, ../scss/_user.scss */
 .filter-element .filter-element__sort li {
   margin-left: 0;
   font-size: 12px;
 }
-/* line 561, ../scss/_user.scss */
+/* line 558, ../scss/_user.scss */
 .filter-element .filter-element__sort .filter-element__sort_header {
   padding-left: 5px;
 }
-/* line 565, ../scss/_user.scss */
+/* line 562, ../scss/_user.scss */
 .filter-element .filter-element__sort .filter-element__sort_title {
   padding-bottom: 5px;
   padding-right: 10px;
   padding-left: 10px;
 }
-/* line 571, ../scss/_user.scss */
+/* line 568, ../scss/_user.scss */
 .filter-element .filter-element__sort a {
   color: #00aaec;
 }
-/* line 576, ../scss/_user.scss */
+/* line 573, ../scss/_user.scss */
 .filter-element .filter-element__sort a:hover,
 .filter-element .filter-element__sort a:focus {
   box-shadow: inset 0 -2px #00aaec;
   cursor: pointer;
   text-decoration: none;
 }
-/* line 582, ../scss/_user.scss */
+/* line 579, ../scss/_user.scss */
 .filter-element .filter-element__sort .filter-element__sort_title_border__li {
   border-left: solid 1px #CCC;
   border-right: solid 1px #CCC;
@@ -8485,63 +8478,57 @@ header {
   top: 1px;
   position: relative;
 }
-/* line 589, ../scss/_user.scss */
+/* line 586, ../scss/_user.scss */
 .filter-element .filter-element__sort .filter-element__sort_title_border {
   top: -3px;
   position: relative;
 }
 
-/* line 597, ../scss/_user.scss */
-.main-element {
-  border: none !important;
-  background-color: #fff;
-  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.2);
-}
-/* line 604, ../scss/_user.scss */
+/* line 596, ../scss/_user.scss */
 .main-element .main-element_left-side {
   display: inline-block;
   width: 305px;
   background-color: lightblue;
 }
-/* line 610, ../scss/_user.scss */
+/* line 602, ../scss/_user.scss */
 .main-element .main-element_right-side {
   display: inline-block;
   width: 175px;
   background-color: red;
 }
-/* line 616, ../scss/_user.scss */
+/* line 608, ../scss/_user.scss */
 .main-element .main-element__distantion {
   color: #b3b3b3;
   float: right;
 }
-/* line 620, ../scss/_user.scss */
+/* line 612, ../scss/_user.scss */
 .main-element .main-element__distantion img {
   position: relative;
   margin-top: -10px;
   top: 3px;
   left: -3px;
 }
-/* line 629, ../scss/_user.scss */
+/* line 621, ../scss/_user.scss */
 .main-element .main-element__distantion,
 .main-element .main-element__restuarant {
   font-size: 12px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 633, ../scss/_user.scss */
+  /* line 625, ../scss/_user.scss */
   .main-element .main-element__content {
     width: 384px;
   }
 }
-/* line 639, ../scss/_user.scss */
+/* line 631, ../scss/_user.scss */
 .main-element .main-element__meal {
   margin: 0px -4px 12px -11px;
 }
-/* line 643, ../scss/_user.scss */
+/* line 635, ../scss/_user.scss */
 .main-element .main-element__rating {
   border-color: #cccccc;
   color: #B3B3B3;
 }
-/* line 648, ../scss/_user.scss */
+/* line 640, ../scss/_user.scss */
 .main-element .main-element__meal-name {
   padding: 10px;
   font-size: 18px;
@@ -8549,33 +8536,33 @@ header {
   min-height: 40px;
   line-height: 1.2;
 }
-/* line 656, ../scss/_user.scss */
+/* line 648, ../scss/_user.scss */
 .main-element .main-element__rating-leftborder {
   border-left: 1px solid;
   border-color: #cccccc;
 }
-/* line 661, ../scss/_user.scss */
+/* line 653, ../scss/_user.scss */
 .main-element .main-elemen__rating-part {
   display: block;
   font-size: 11px;
   line-height: 1.2;
 }
-/* line 667, ../scss/_user.scss */
+/* line 659, ../scss/_user.scss */
 .main-element .main-element__rating-price {
   margin: 2px auto;
 }
-/* line 672, ../scss/_user.scss */
+/* line 664, ../scss/_user.scss */
 .main-element .main-element__rating-box {
   margin: 0 auto;
   width: 63px;
 }
-/* line 676, ../scss/_user.scss */
+/* line 668, ../scss/_user.scss */
 .main-element .main-element__rating-box .main-element__rating-rating {
   display: inline-block;
   position: absolute;
   top: 1px;
 }
-/* line 682, ../scss/_user.scss */
+/* line 674, ../scss/_user.scss */
 .main-element .main-element__rating-box .main-element__rating-rating-right {
   display: inline-block;
   font-weight: 600;
@@ -8584,19 +8571,19 @@ header {
   float: right;
   margin: 3px;
 }
-/* line 692, ../scss/_user.scss */
+/* line 684, ../scss/_user.scss */
 .main-element .search-page-thumb {
   float: right;
   width: 150px;
   height: 150px;
   margin-top: 10px;
 }
-/* line 699, ../scss/_user.scss */
+/* line 691, ../scss/_user.scss */
 .main-element .main-element__comment {
   font-size: 12px;
   line-height: 1.2;
 }
-/* line 704, ../scss/_user.scss */
+/* line 696, ../scss/_user.scss */
 .main-element .main-element__friends-header {
   font-size: 12px;
   line-height: 1.2;
@@ -8604,126 +8591,126 @@ header {
   margin-top: 8px;
   display: inline-block;
 }
-/* line 712, ../scss/_user.scss */
+/* line 704, ../scss/_user.scss */
 .main-element .main-element__friends {
   margin-top: 5px;
 }
-/* line 716, ../scss/_user.scss */
+/* line 708, ../scss/_user.scss */
 .main-element .main-element__friends-avatar {
   width: 35px;
   height: 35px;
   display: inline-block;
 }
-/* line 721, ../scss/_user.scss */
+/* line 713, ../scss/_user.scss */
 .main-element .main-element__friends-avatar img {
   border-radius: 3px;
 }
 
-/* line 728, ../scss/_user.scss */
+/* line 720, ../scss/_user.scss */
 .ad {
   background-color: #FFF;
   border-color: #FBB03B;
 }
-/* line 732, ../scss/_user.scss */
+/* line 724, ../scss/_user.scss */
 .ad .ad__header {
   margin-bottom: 10px;
 }
-/* line 736, ../scss/_user.scss */
+/* line 728, ../scss/_user.scss */
 .ad .ad__name {
   font-weight: 600;
   font-size: 11px;
   float: left;
   color: #FBB03B !important;
 }
-/* line 743, ../scss/_user.scss */
+/* line 735, ../scss/_user.scss */
 .ad .ad__badge {
   font-weight: 600;
   font-size: 11px;
   color: #FBB03B;
   float: right;
 }
-/* line 750, ../scss/_user.scss */
+/* line 742, ../scss/_user.scss */
 .ad .ad__thumb {
   float: right;
   width: 100%;
   border-radius: 3px;
 }
-/* line 756, ../scss/_user.scss */
+/* line 748, ../scss/_user.scss */
 .ad .ad__offer {
   font-weight: 400;
   color: #FBB03B;
   font-size: 15px;
 }
-/* line 762, ../scss/_user.scss */
+/* line 754, ../scss/_user.scss */
 .ad p {
   color: gray;
   font-size: 11px;
 }
-/* line 767, ../scss/_user.scss */
+/* line 759, ../scss/_user.scss */
 .ad hr {
   border-color: #FBB03B;
   margin: 10px 0 10px 0;
 }
 
-/* line 773, ../scss/_user.scss */
+/* line 765, ../scss/_user.scss */
 .ad:hover, :focus {
   background-color: #FFF5CB;
 }
 
-/* line 777, ../scss/_user.scss */
+/* line 769, ../scss/_user.scss */
 .offer {
   background-color: #FFF5CB;
   border: solid 1px #FBB03B;
   margin-left: -14px;
   margin-bottom: 0;
 }
-/* line 783, ../scss/_user.scss */
+/* line 775, ../scss/_user.scss */
 .offer .offer__header {
   margin-bottom: 10px;
 }
-/* line 787, ../scss/_user.scss */
+/* line 779, ../scss/_user.scss */
 .offer .offer__name {
   font-weight: 600;
   font-size: 11px;
   float: left;
   color: #FBB03B !important;
 }
-/* line 794, ../scss/_user.scss */
+/* line 786, ../scss/_user.scss */
 .offer .offer__badge {
   font-weight: 600;
   font-size: 11px;
   color: #FBB03B;
   float: left;
 }
-/* line 801, ../scss/_user.scss */
+/* line 793, ../scss/_user.scss */
 .offer .offer__thumb {
   float: right;
   width: 100%;
   border-radius: 3px;
 }
-/* line 807, ../scss/_user.scss */
+/* line 799, ../scss/_user.scss */
 .offer .offer__offer {
   font-weight: 400;
   color: #FBB03B;
   font-size: 15px;
 }
-/* line 813, ../scss/_user.scss */
+/* line 805, ../scss/_user.scss */
 .offer p {
   color: gray;
   font-size: 11px;
 }
 
-/* line 819, ../scss/_user.scss */
+/* line 811, ../scss/_user.scss */
 .offer:hover, :focus {
   background-color: #FFF5CB;
   border: solid 1px #FBB03B;
 }
 
-/* line 826, ../scss/_user.scss */
+/* line 818, ../scss/_user.scss */
 .article .article-hero {
   height: 400px;
 }
-/* line 829, ../scss/_user.scss */
+/* line 821, ../scss/_user.scss */
 .article .article-hero h2 {
   font-size: 2.6rem;
   font-weight: 800;
@@ -8731,26 +8718,26 @@ header {
   color: #FFF;
   text-shadow: 0px 0px 10px #000;
 }
-/* line 839, ../scss/_user.scss */
+/* line 831, ../scss/_user.scss */
 .article .article-hero-image {
   display: block;
   width: 100%;
   height: 400px;
   overflow: hidden;
 }
-/* line 846, ../scss/_user.scss */
+/* line 838, ../scss/_user.scss */
 .article .article__hero__header {
   position: relative;
   top: -158px;
 }
-/* line 851, ../scss/_user.scss */
+/* line 843, ../scss/_user.scss */
 .article .article__subheader {
   font-weight: 700;
   font-size: 1.8rem;
   margin-top: 40px;
   line-height: 1.4;
 }
-/* line 858, ../scss/_user.scss */
+/* line 850, ../scss/_user.scss */
 .article h3 {
   font-weight: 700;
   font-size: 1.8rem;
@@ -8758,7 +8745,7 @@ header {
   margin-bottom: 40px;
   line-height: 1.4;
 }
-/* line 866, ../scss/_user.scss */
+/* line 858, ../scss/_user.scss */
 .article .article-image {
   display: block;
   width: 100%;
@@ -8766,26 +8753,26 @@ header {
   overflow: hidden;
   margin-bottom: 40px;
 }
-/* line 874, ../scss/_user.scss */
+/* line 866, ../scss/_user.scss */
 .article p {
   font-size: 1.4rem;
 }
 
-/* line 880, ../scss/_user.scss */
+/* line 872, ../scss/_user.scss */
 .food-description {
   border: none !important;
   background-color: #fff;
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.2);
   padding: 0 0.500rem 0 0.625rem;
 }
-/* line 886, ../scss/_user.scss */
+/* line 878, ../scss/_user.scss */
 .food-description .food-description__cafe {
   background: #F1F1F1;
   height: 100px;
   border-left: solid 1px #cccccc;
   box-shadow: inset 1px 0 #fff;
 }
-/* line 893, ../scss/_user.scss */
+/* line 885, ../scss/_user.scss */
 .food-description .food-description__cafe__destination {
   border-left: solid 1px #cccccc;
   box-shadow: inset 1px 0 #fff;
@@ -8794,50 +8781,50 @@ header {
   color: #b3b3b3;
   padding: 34px 8px;
 }
-/* line 901, ../scss/_user.scss */
+/* line 893, ../scss/_user.scss */
 .food-description .food-description__cafe__destination img {
   margin-right: 10px;
   height: 34px;
 }
-/* line 907, ../scss/_user.scss */
+/* line 899, ../scss/_user.scss */
 .food-description .food-description__cafe__name {
   padding: 34px 8px;
   font-size: 25px;
 }
-/* line 912, ../scss/_user.scss */
+/* line 904, ../scss/_user.scss */
 .food-description .food-description_left-side {
   display: inline-block;
   width: 305px;
   background-color: lightblue;
 }
-/* line 918, ../scss/_user.scss */
+/* line 910, ../scss/_user.scss */
 .food-description .food-description_right-side {
   display: inline-block;
   width: 175px;
   background-color: red;
 }
-/* line 924, ../scss/_user.scss */
+/* line 916, ../scss/_user.scss */
 .food-description .food-description__distantion {
   color: #b3b3b3;
   float: right;
 }
-/* line 928, ../scss/_user.scss */
+/* line 920, ../scss/_user.scss */
 .food-description .food-description__distantion img {
   position: relative;
   margin-top: -10px;
   top: 3px;
   left: -3px;
 }
-/* line 937, ../scss/_user.scss */
+/* line 929, ../scss/_user.scss */
 .food-description .food-description__distantion,
 .food-description .food-description__restuarant {
   font-size: 12px;
 }
-/* line 944, ../scss/_user.scss */
+/* line 936, ../scss/_user.scss */
 .food-description .food-description__meal {
   margin-top: 15px;
 }
-/* line 948, ../scss/_user.scss */
+/* line 940, ../scss/_user.scss */
 .food-description .food-description__rating {
   border-color: #cccccc;
   color: #B3B3B3;
@@ -8845,7 +8832,7 @@ header {
   margin-top: 25px;
   font-size: 13px;
 }
-/* line 956, ../scss/_user.scss */
+/* line 948, ../scss/_user.scss */
 .food-description .food-description__meal-name {
   padding: 10px;
   font-size: 18px;
@@ -8853,32 +8840,32 @@ header {
   min-height: 40px;
   line-height: 1.2;
 }
-/* line 964, ../scss/_user.scss */
+/* line 956, ../scss/_user.scss */
 .food-description .food-description__rating-leftborder {
   border-left: 1px solid;
   border-color: #cccccc;
 }
-/* line 971, ../scss/_user.scss */
+/* line 963, ../scss/_user.scss */
 .food-description .food-description__rating-price .inline-list {
   margin: 0;
 }
-/* line 975, ../scss/_user.scss */
+/* line 967, ../scss/_user.scss */
 .food-description .food-description__rating-price .filter-element__badges-title {
   margin-bottom: 5px;
   color: #B3B3B3;
   font-size: 11px;
 }
-/* line 982, ../scss/_user.scss */
+/* line 974, ../scss/_user.scss */
 .food-description .food-description__rating-box {
   margin: 0 auto;
   width: 80px;
 }
-/* line 986, ../scss/_user.scss */
+/* line 978, ../scss/_user.scss */
 .food-description .food-description__rating-box .food-description__rating-rating {
   display: inline-block;
   position: absolute;
 }
-/* line 991, ../scss/_user.scss */
+/* line 983, ../scss/_user.scss */
 .food-description .food-description__rating-box .food-description__rating-rating-right {
   display: inline-block;
   font-weight: 600;
@@ -8886,19 +8873,19 @@ header {
   color: red;
   float: right;
 }
-/* line 1000, ../scss/_user.scss */
+/* line 992, ../scss/_user.scss */
 .food-description .search-page-thumb {
   float: right;
   width: 150px;
   height: 150px;
   margin-top: 10px;
 }
-/* line 1007, ../scss/_user.scss */
+/* line 999, ../scss/_user.scss */
 .food-description .food-description__comment {
   font-size: 12px;
   line-height: 1.2;
 }
-/* line 1012, ../scss/_user.scss */
+/* line 1004, ../scss/_user.scss */
 .food-description .food-description__friends-header {
   font-size: 12px;
   line-height: 1.2;
@@ -8906,19 +8893,78 @@ header {
   margin-top: 8px;
   display: inline-block;
 }
-/* line 1020, ../scss/_user.scss */
+/* line 1012, ../scss/_user.scss */
 .food-description .food-description__friends {
   margin-top: 5px;
 }
-/* line 1024, ../scss/_user.scss */
+/* line 1016, ../scss/_user.scss */
 .food-description .food-description__friends-avatar {
   width: 35px;
   height: 35px;
   display: inline-block;
 }
-/* line 1029, ../scss/_user.scss */
+/* line 1021, ../scss/_user.scss */
 .food-description .food-description__friends-avatar img {
   border-radius: 3px;
+}
+
+/* line 1027, ../scss/_user.scss */
+.rate-panel {
+  padding: 0;
+}
+/* line 1030, ../scss/_user.scss */
+.rate-panel .row {
+  margin: 0;
+}
+/* line 1034, ../scss/_user.scss */
+.rate-panel .rate-panel__leftside {
+  background: #7AC943;
+  font-size: 1rem;
+  color: #FFF;
+  padding: 31px;
+}
+/* line 1041, ../scss/_user.scss */
+.rate-panel .rate-panel__ul {
+  margin: 15px;
+}
+/* line 1044, ../scss/_user.scss */
+.rate-panel .rate-panel__ul li {
+  margin-left: 0;
+}
+/* line 1049, ../scss/_user.scss */
+.rate-panel .rate-panel__face-1 {
+  background: url(../images/icons/icon-ratefaces.svg) 8px 0;
+  height: 47px;
+  width: 45px;
+  background-repeat: no-repeat;
+}
+/* line 1055, ../scss/_user.scss */
+.rate-panel .rate-panel__face-2 {
+  background: url(../images/icons/icon-ratefaces.svg) -37px 0;
+  height: 47px;
+  width: 45px;
+  background-repeat: no-repeat;
+}
+/* line 1061, ../scss/_user.scss */
+.rate-panel .rate-panel__face-3 {
+  background: url(../images/icons/icon-ratefaces.svg) -82px 0;
+  height: 47px;
+  width: 45px;
+  background-repeat: no-repeat;
+}
+/* line 1067, ../scss/_user.scss */
+.rate-panel .rate-panel__face-4 {
+  background: url(../images/icons/icon-ratefaces.svg) -127px 0;
+  height: 47px;
+  width: 45px;
+  background-repeat: no-repeat;
+}
+/* line 1073, ../scss/_user.scss */
+.rate-panel .rate-panel__face-5 {
+  background: url(../images/icons/icon-ratefaces.svg) -172px 0;
+  height: 47px;
+  width: 45px;
+  background-repeat: no-repeat;
 }
 
 /* line 1, ../scss/_content.scss */
@@ -9479,6 +9525,22 @@ header {
   box-shadow: -1px 0 6px rgba(0, 0, 0, 0.3), 1px 0 6px rgba(0, 0, 0, 0.3);
   background-color: #fff;
   padding-top: 8px;
+}
+
+/* line 524, ../scss/_content.scss */
+.chef img {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+/* line 530, ../scss/_content.scss */
+.chef .header {
+  font-weight: 600;
+  line-height: 2;
+}
+/* line 535, ../scss/_content.scss */
+.chef .chef__content {
+  margin-bottom: 15px;
 }
 
 /* line 1, ../scss/_search-page.scss */
