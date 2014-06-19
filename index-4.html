@@ -13,21 +13,154 @@
 	</head>
 
 	<body style="background: #fff;">
-		<div class="row">
+		<section class="top-bar__lp contain-to-grid" style="background: none; border-bottom: none;">
+			<nav class="top-bar" data-topbar="" style="background: none; border-bottom: none;">
+				<div class="row">
+					<div class="small-12 columns">
+						<ul class="inline-list">
+							<li>
+								<a href="search-page.html">
+									<div class="logo">
+										<h1>FOODRATING</h1>
+									</div>
+								</a>
+							</li>
+						</ul>
+						<button data-reveal-id="login-window" class="tiny radius index-login">ВОЙТИ</button>
+						<div id="login-window" class="reveal-modal login-block" data-reveal>
+				  			<div class="row">
+				  				<div class="small-12 columns">
+				  					<a href="" class="btn btn-facebook">
+				  						<span class="icon-container">
+				  						<i class="login-icon fi-social-facebook"></i>
+				  						</span>
+				  						<span class="text-container">
+				  						Войти через аккаунт Facebook
+				  					  </span>
+				  					</a>
+				  				</div>
+				  			</div>
+
+				  			<div class="row">
+				  				<div class="small-5 columns"><hr></div>
+				  				<div class="small-2 columns text-center devider">или</div>
+				  				<div class="small-5 columns"><hr></div>
+				  			</div>
+				  			
+				  			<div class="row">
+				  				<div class="small-12 columns">
+				  					<a href="" class="btn btn-vk">
+				  						<span class="icon-container">
+				  						<i class="login-icon vk-logo"></i>
+				  						</span>
+				  						<span class="text-container">
+				  						Войти через аккаунт Вконтакте
+				  					  </span>
+				  					</a>
+				  				</div>
+				  			</div>
+				  			
+				  			<div class="row">
+				  				<div class="small-5 columns"><hr></div>
+				  				<div class="small-2 columns text-center devider">или</div>
+				  				<div class="small-5 columns"><hr></div>
+				  			</div>
+
+				  			<form>
+				  			  <div class="row">
+				  				<div class="large-12 columns">
+				  					<input type="text" placeholder="Электронная почта">
+				  				</div>
+				  				<div class="large-12 columns">
+				  					<input type="text" placeholder="Пароль">
+				  				</div>
+				  				<div class="small-12 columns forgot-password">
+				  					<a href="" class="">Забыли пароль?</a>
+				  				</div>
+				  				<div class="small-12 columns">
+				  					<a href="" class="button expand radius tiny">Войти</a>
+				  				</div>
+				  			  </div>
+				  			</form>
+				  			<div class="row">
+				  				<div class="small-12 columns">
+				  					<div class="fb-login-button" data-max-rows="1" data-size="xlarge" data-show-faces="true" data-auto-logout-link="true">
+				  					</div>
+				  				</div>
+				  			</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</section>
+
+		<div class="row site-home screen-width">
 			<div class="index-hero">
-				<div class="small-12 medium-7 large-5 small-centered columns">
+				<div class="small-12 medium-7 large-6 small-centered columns" style="max-width: 600px;">
 					<h2 class="text-center">Найди самое вкусное в Калининграде</h2>
 					<form>
 						<div class="row">
 							<div class="small-12 columns">
 								<div class="row collapse">
 									<div class="small-10 columns">
-							  			<input type="text" data-dropdown="tinyDrop2" placeholder="Какое блюдо ты ищешь?">
+							  			<input type="text" data-dropdown="tinyDrop2" placeholder="Какое блюдо ты любишь?">
 									</div>
 									<div class="small-2 columns">
 										<a href="#" class="button alert postfix">Найти</a>
-									</div>	
+									</div>
+									<div class="small-12 columns">
+										<ul id="tinyDrop2" class="custom-dropdown-container-class" data-dropdown-content="" style="position: absolute; top: 72.1875px; left: -99999px;">
+											<li>
+												<a href="">
+													<div class="menu-item-icon">
+														<img src="images/icons/icon-star.svg">
+													</div>
+													<span class="menu-item-term">Лучшее рядом</span>
+													<span class="subtext">Лучшие предложения блюд рядом с тобой</span>
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<div class="menu-item-icon">
+														<img src="images/icons/icon-star.svg">
+													</div>
+													<span class="menu-item-term">Самые вкусные блюда</span>
+													<span class="subtext">Самое вкусное в твоем городе</span>
+												</a>
+												
+											</li>
+											<li>
+												<a href="">
+													<div class="menu-item-icon">
+														<img src="images/icons/icon-pop-up.svg">
+													</div>
+													<span class="menu-item-term">Популярные</span>
+													<span class="subtext">Блюда набирающие популяроность</span>
+												</a>
+												
+											</li>
+											<li>
+												<a href="">
+													<div class="menu-item-icon">
+														<img src="images/icons/icon-new.svg">
+													</div>
+													<span class="menu-item-term">Новые</span>
+													<span class="subtext">Свежие предложения</span>
+												</a>
+												
+											</li>
+											<li>
+												<a href="">
+													<div class="menu-item-icon">
+														<img src="images/icons/icon-sale.svg">
+													</div>
+													<span class="menu-item-term">Спецпредложения</span>
+												</a>	
+											</li>
+										</ul>
+									</div>
 								</div>
+								
 							</div>
 							<div class="small-12 columns">
 								<p class="subheader">Например: пицца,<br>стейк-гриль из мрамороной говядины<br>или кафе Папаша Беппе</p>
@@ -35,10 +168,57 @@
 						</div>
 					</form>
 				</div>
-			</div>		
+			</div>	
 		</div>
 
-		
+		<div class="row hide-for-small-only" style="margin-bottom: 40px;">
+			<div class="small-12 medium-4 large-4 columns landing-steps">
+				<img src="images/landing-1.jpg">
+				<h3>Выбирай лучшие заведения города</h3>
+				<p>Выбирай места для завтрака, обеда и ужина по местоположению, рейтингу и рекомендациям.</p>
+			</div>
+			<div class="small-12 medium-4 large-4 columns landing-steps">
+				<img src="images/landing-2.jpg">
+				<h3>Пробуй самые вкусные блюда</h3>
+				<p>Читай комментарий к блюдам, смотри рейтинг блюд и делай выбор. Пробуй самые вкусные блюда рядом с тобой, лучшие в городе или новинки. </p>
+			</div>
+			<div class="small-12 medium-4 large-4 columns landing-steps">
+				<img src="images/landing-3.jpg">
+				<h3>Делись впечатлениями с друзьями</h3>
+				<p>Оставляй комментарии и фотографиями к блюдам, которые ты советуешь попробовать или, наоборот, никогда не заказывать.</p>
+			</div>
+		</div>
+
+		<div class="row wide-screen" style="background: #E4E4E4; height: 150px; padding: 47px 0; margin: 0 0 40px 0;">
+			<div class="small-12">
+				<a href="search-page.html" class="button radius centered">смотреть все продложения</a>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="small-12 medium-8 larg-6 small-centered columns">
+				<section class="footer">
+					<div class="row">
+						<div class="small-3 columns">
+							<a href=""><p class="text-center">О нас</p></a>
+						</div>
+						<div class="small-3 columns">
+							<a href=""><p class="text-center">Блог</p></a>
+						</div>
+						<div class="small-3 columns">
+							<a href=""><p class="text-center">Реклама</p></a>
+						</div>
+						<div class="small-3 columns">
+							<a href=""><p class="text-center">Вакансии</p></a>
+						</div>
+					</div>
+					<p class="text-center">Foodrating © 2014 Сделано в Калининграде</p>
+				</section>
+			</div>
+		</div>
+
+
 
 		
 		<script src="js/foundation.js"></script>
