@@ -4,7 +4,9 @@ $active-text-color: #00AAEC;
 $border-color: #CCCCCC;
 
 .wrapper{
-	margin-top: 15px;
+	top: 51px;
+	position: relative;
+	margin: 0;
 }
 
 .panel{
@@ -488,6 +490,16 @@ header{
 	margin-top: 10px;
 }
 
+.magnifying-glass{
+	background: #CFCACA;
+	.fi-magnifying-glass{
+		font-size: 2.3rem !important;
+		color: #fff !important;
+		margin: 0 !important;
+		top: 0 !important;
+	}
+}
+
 .camera{
 	background: #CFCACA;
 	.fi-camera{
@@ -874,18 +886,39 @@ header{
 	background-color: #fff;
 	box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.2);
 	padding: 0 0.500rem 0 0.625rem;
+	margin-top: 0;
+
+	.food-description__for-small-screen{
+		@media only screen and (max-width: 40em){
+			background: #F0F0F0;
+			border: solid 1px #CCC;
+			padding: 0;
+			margin: 0px 1px 0px 1px;
+			box-shadow: inset 1px 1px #FFF, inset -1px -1px #FFF;
+			border-radius: 3px;
+		}
+	}
 
 	.food-description__cafe{
 		background: #F1F1F1;
 		height: 100px;
 		border-left: solid 1px $border-color;
 		box-shadow: inset 1px 0 #fff;
+
+		@media only screen and (max-width: 64em){
+			box-shadow: none;
+			border: none;
+			height: auto;
+		}
+
+		@media only screen and (max-width: 40em){
+			background: #FFF;
+		}
 	}
 
 	.food-description__cafe__destination{
 		border-left: solid 1px $border-color;
 		box-shadow: inset 1px 0 #fff;
-		height: 100px;
 		font-size: 25px;
 		color: $subtext-color;
 		padding: 34px 8px;
@@ -894,11 +927,19 @@ header{
 			margin-right: 10px;
 			height: 34px;
 		}
+
+		@media only screen and (max-width: 64em){
+			padding: 15px 8px;
+		}
 	}
 
 	.food-description__cafe__name{
 		padding: 34px 8px;
 		font-size: 25px;
+
+		@media only screen and (max-width: 64em){
+			padding: 15px 8px;
+		}
 	}
 
 	.food-description_left-side{
@@ -935,6 +976,18 @@ header{
 
 	.food-description__meal{
 		margin-top: 15px;
+		
+		hr{
+			margin: 0 0 8px 0;
+		}
+
+		@media only screen and (min-width: 40.063em) and (max-width: 64em){
+			margin: 8px 0;
+		}
+
+		@media only screen and (max-width: 40em){
+			margin: 8px 0 0 0;
+		}		
 	}
 
 	.food-description__rating{
@@ -943,6 +996,10 @@ header{
 		height: 34px;
 		margin-top: 25px;
 		font-size: 13px;
+
+		@media only screen and (max-width: 40em){
+			margin: 15px 0 6px 0;
+		}
 	}
 
 	.food-description__meal-name{
@@ -959,6 +1016,10 @@ header{
 	}
 
 	.food-description__rating-price{
+		
+		@media only screen and (max-width: 40em){
+			margin: 8px;
+		}
 
 		.inline-list{
 			margin: 0;
@@ -1022,6 +1083,8 @@ header{
 			border-radius: 3px;
 		}
 	}
+
+
 }
 
 .rate-panel{
@@ -1111,4 +1174,85 @@ header{
 .login-button{
 	position: relative;
 	top: 5px;
+}
+
+.map-panel{
+	padding: 0;
+	height: 180px;
+	overflow: hidden;
+
+	.map-panel__adress{
+		height: 180px;
+	}
+
+	.map-panel__adress-inner{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 100%;
+		height: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.map-panel__adress-adress{
+		// position: absolute;
+		top: 50%;
+		// left: 50%;
+		// width: 70%;
+		height: 50%;
+		transform: translate(0%, -50%);
+
+		ul{
+			margin: 0;
+			position: absolute;
+			top: 50%;
+			width: 95%;
+			transform: translate(0%, -50%);
+		}
+	}
+
+	.map-panel__adress__icon{
+		position: absolute;
+		top: 50%;
+		/* left: 40%; */
+		height: 30px;
+		/* background-color: #127512; */
+		transform: translate(0%, -50%);
+
+		img{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			width: 30%;
+			height: 30px;
+			transform: translate(0%, -50%);
+		}
+	}
+}
+
+.menu-header{
+
+	.menu-header__badges{
+		.active{
+			background: $primary-color;
+			color: white;
+			border: solid 1px $primary-color;
+		}
+	}
+
+	.menu-header__menu-title{
+		font-size: 12px;
+		color: #B3B3B3;
+	}
+}
+
+.in-cafe-page{
+
+	.in-cafe-page__meal-name {
+		padding-bottom: 10px;
+		font-size: 18px;
+		font-weight: 400;
+		min-height: 40px;
+		line-height: 1.2;
+	}
 }

@@ -3,10 +3,8 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="wdith=device-width, initial-scale=1.0" />
-		<title>FOODRATING - Найди самое вкусное в своем городе!</title>
-		<link rel="shortcut icon" href="images/favicon.ico">
+		<title>Фудрейтинг</title>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,800,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="stylesheets/app.css" />
 		<link rel="stylesheet" href="images/icons/foundation-icons/foundation-icons.css" />
 		<script src="js/modernizr/modernizr.js"></script>
@@ -14,37 +12,227 @@
 
 
 
-	<body style="background-color: #fff;">
+	<body class="bg-tantan">
+		<div class="row food__wrapper">
+			<div class="small-12 columns">
+				<nav class="top-bar row">
+					<div class="small-8 medium-4 large-3 columns">
+						<a href="search-page.html">
+							<div class="logo__white">
+								<h1>FOODRATING</h1>
+							</div>
+						</a>
+					</div>
+					<div class="small-4 columns hide-for-medium-up">
+						<a class="fr-button login-button right">ВОЙТИ</a>
+					</div>
+					<div class="small-12 medium-6 large-6 columns">
+						<form>
+							<div class="row collapse">
+								<div class="small-10 columns">
+							  		<input type="text" placeholder="Найди самое вкусное">
+								</div>
+								<div class="small-2 columns">
+							  		<a href="#" class="button postfix camera"><i class="fi-camera size-72"></i></a>
+								</div>
+						  	</div>
+						</form>
+					</div>
+					<div class="small-12 medium-2 large-3 columns hide-for-small-only">
+						<a class="fr-button login-button right">ВОЙТИ</a>
+					</div>
+				</nav>
+			</div>
+			
 
-		<div class="fixed">
-			<nav class="top-bar wide-screen" data-topbar="">
+			<div class="small-12 medium-12 large-12 columns hero">
+				<h2 class="text-center">ресторан "Наутилус"</h2>
+				<div class="hero__background">
+					<img src="images/demo/pizza.jpg" alt="">
+				</div>
 				
-						
-								<form id="search-top-container">
-									<div class="row">
-										<div class="small-9 columns">
-											<input id="search-top" type="search" placeholder="Найди самое вкусное">
-										</div>
-										<div class="small-3 columns">
-											<a href="#" class="alert button search-button"></a>
-										</div>
-									</div>
-								
-								</form>
-						
-						
-				
-			</nav>
-		</div>
-
-		<div class="row wrapper wide-screen">
-
-
+			</div>
 
 			
-		</div>
+
+			<div class="small-12 columns" style="margin-top: 14px;">
+				<div class="row">
+					<div class="small-12 medium-12 large-6 columns">
+						<section class="panel radius ceo-panel">
+							<div class="row">
+								<div class="small-12 columns chef__content">
+									<img src="images/icons/icon-ceo.svg" alt="">
+									<span class="header">ПАРА СЛОВ ОТ РЕСТОРАТОРА</span>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, quibusdam dolores odit qui ducimus eius autem omnis. Possimus, iste alias quidem quasi et aperiam accusantium soluta. Recusandae dolorem sunt sapiente.</p>	
+								</div>
+							</div>
+						</section>
+					</div>
+					<div class="small-12 medium-12 large-6 columns">
+						<section class="panel radius map-panel">
+							<div class="row">
+								<div class="medium-6 columns hide-for-small-only">
+									<div class="map">
+										<img src="images/demo/map.jpg" alt="">
+									</div>
+								</div>
+								<div class="small-12 medium-6 columns map-panel__adress">
+									<div class="row map-panel__adress-inner">
+										<div class="small-4 columns map-panel__adress__icon">
+											<img src="images/icons/icon-location.svg" alt="">
+										</div>
+										<div class="small-8 columns map-panel__adress-adress">
+											<ul class="inline-list">
+												<li>Калининград</li>
+												<li>ул. Курортная, 75а</li>
+												<li>т. +7 (4012) 35-77-41</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+					<div class="small-12 columns">
+						<section class="panel filter-element menu-header radius">
+							<div class="row">	
+								<div class="small-12 columns menu-header__badges">
+									<span class="menu-header__menu-title">меню:</span>
+									<a class="badge active">выбрать всё</a>
+									<a class="badge">закуски</a>
+									<a class="badge">салаты</a>
+									<a class="badge">первое</a>
+									<a class="badge">второе</a>
+									<a class="badge">десерт</a>
+									<a class="badge">напитки</a>
+									<a class="badge">другое</a>
+								</div>
+								<div class="small-12 columns filter-element__sort">
+									<ul class="inline-list">
+										<li class="filter-element__sort_title filter-element__sort_header hide-for-small-only">
+											сортирвать:
+										</li>
+										<li>
+											<a href="#" class="active filter-element__sort_title">По рейтингу</a>
+										</li>
+										<li class="">
+											<a href="#" class="filter-element__sort_title">По цене</a>
+										</li>
+										<li>
+											<a href="#" class="filter-element__sort_title">Новые</a>
+										</li>
+									</ul>
+								</div>						
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+
+			<div class="small-12 medium-6 columns">
+				<section class="panel main-element in-cafe-page radius">
+					<div class="row">
+						<div class="small-12 medium-8 columns">
+							<div class="row">
+								<div class="small-12 columns in-cafe-page__meal-name">
+									<a href="#">
+										<span>Стейк гриль из мраморной говядины</span>
+									</a>
+								</div>
+								<div class="small-3 columns main-element__rating">
+									<div class="main-element__rating-box">
+										<div class="main-element__rating-rating">
+											<svg fill="FFF" width="25px" height="24px" viewBox="-2 4 50 40" enable-background="new 0 0 47 61.725" xml:space="preserve">
+												<g>
+													<path stroke="#FF0000" stroke-width="2" stroke-miterlimit="10" d="M46,23.5C46,35.919,35.921,46,23.5,46
+														C11.08,46,1,35.919,1,23.5S11.08,1,23.5,1C35.921,1,46,11.081,46,23.5z"></path>
+													<path fill="#FF0000" d="M16.09,16.018c0,2.293-1.492,4.162-3.316,4.162c-1.82,0-3.31-1.869-3.31-4.162
+														c0-2.275,1.489-4.142,3.31-4.142C14.598,11.876,16.09,13.742,16.09,16.018z"></path>
+													<path fill="#FF0000" d="M37.677,16.018c0,2.293-1.481,4.162-3.306,4.162c-1.844,0-3.324-1.869-3.324-4.162
+														c0-2.275,1.48-4.142,3.324-4.142C36.195,11.876,37.677,13.742,37.677,16.018z"></path>
+													<path fill="none" stroke="#FF0000" stroke-width="2" stroke-miterlimit="10" d="M9.375,36.625
+														c4.25-11.271,23.5-12.563,28.625-0.117"></path>
+												</g>
+											</svg>
+										</div>
+										<div class="main-element__rating-rating-right">0.6</div>
+									</div>	
+								</div>
+								<div class="small-3 columns main-element__rating main-element__rating-leftborder">
+									<div class="main-elemen__rating-part text-center">189</div>
+									<div class="main-elemen__rating-part text-center">голоса</div>
+								</div>
+								<div class="small-3 columns main-element__rating main-element__rating-leftborder">
+									<div class="main-elemen__rating-part text-center">189</div>
+									<div class="main-elemen__rating-part text-center">коммента</div>
+								</div>
+								<div class="small-3 columns main-element__rating main-element__rating-leftborder">
+									<div class="main-element__rating-price text-center">
+										<span class="label radius">350 Р</span></div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="small-12 columns">
+									<span class="main-element__comment">... очень вкусный стейк, сочный. за такую цену можно просто обожраться.</span>
+								</div>
+								<div class="small-12 columns">
+									<span class="main-element__friends-header">твои друзья оценили это блюдо:</span>
+									<div class="main-element__friends">
+										<span class="main-element__friends-avatar">
+											<img src="images/demo/friends/COWYA3GFYYVUP5TS.jpg" alt="">
+										</span>
+										<span class="main-element__friends-avatar">
+											<img src="images/demo/friends/12UNXZXZITK0FFRC.jpg" alt="">
+										</span>
+										<span class="main-element__friends-avatar">
+											<img src="images/demo/friends/0LNPBTV4PHDKOKYC.jpg" alt="">
+										</span>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+						<div class="small-4 columns hide-for-small-only">
+							<a class="th radius" href="food-page.html">
+								<img class="" src="images/demo/kropotkin/meal-1/meal-1-thumb.jpg">
+							</a>
+						</div>
+					</div>
+				</section>
+			</div>
+
+			<section class="small-12 columns">
+				<hr>
+				<div class="row">
+					<div class="small-12 medium-8 larg-6 small-centered columns">
+						<section class="footer">
+							<div class="row">
+								<div class="small-3 columns">
+									<a href=""><p class="text-center">О нас</p></a>
+								</div>
+								<div class="small-3 columns">
+									<a href=""><p class="text-center">Блог</p></a>
+								</div>
+								<div class="small-3 columns">
+									<a href=""><p class="text-center">Реклама</p></a>
+								</div>
+								<div class="small-3 columns">
+									<a href=""><p class="text-center">Вакансии</p></a>
+								</div>
+							</div>
+							<p class="text-center">Foodrating © 2014 Сделано в Калининграде</p>
+						</section>
+					</div>
+				</div>
+			</section>
+		</div><!-- конец обертки -->
+
+
 		
-		
+
+
+
+
 
 		<script src="js/jquery/jquery.js"></script>
 		<script src="js/foundation.min.js"></script>

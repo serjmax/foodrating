@@ -20,49 +20,52 @@
 
 
 	<body style="background-color: #fff;">
-		<div class="fixed">
-			<nav class="top-bar wide-screen" data-topbar="">
-				<div class="row">
-					<div class="small-12 columns">
-						<ul class="inline-list">
-							<li class="hide-for-small-only">
-								<a href="search-page.html">
-									<div class="logo__white">
-										<h1 class="hide-for-small-only">FOODRATING</h1>
-									</div>
-								</a>
-							</li>
-							<li>
-								<form id="search-top-container">
-									<div class="row">
-										<div class="small-9 columns">
-											<input id="search-top" type="search" placeholder="Найди самое вкусное">
-										</div>
-										<div class="small-3 columns">
-											<a href="#" class="alert button search-button"></a>
-										</div>
-									</div>
-								
-								</form>
-							</li>
-						</ul>
-						<a class="tiny radius login">ВОЙТИ</a>
+		<div class="row fixed wide-screen">
+			<div class="small-12 columns">
+				<nav class="top-bar wide-screen row">
+					<div class="small-8 medium-4 large-2 columns">
+						<a href="search-page.html">
+							<div class="logo__white">
+								<h1>FOODRATING</h1>
+							</div>
+						</a>
 					</div>
-				</div>
-			</nav>
+					<div class="small-4 columns hide-for-medium-up">
+						<a class="button tiny right">ВОЙТИ</a>
+					</div>
+					<div class="small-12 medium-6 large-4 columns">
+						<form>
+							<div class="row collapse">
+								<div class="small-10 columns">
+							  		<input type="text" placeholder="Найди самое вкусное">
+								</div>
+								<div class="small-2 columns">
+							  		<a href="#" class="button postfix magnifying-glass"><i class="fi-magnifying-glass size-72"></i></a>
+								</div>
+						  	</div>
+						</form>
+					</div>
+					<div class="small-12 medium-2 large-6 columns hide-for-small-only">
+						<a class="fr-button login-button right">ВОЙТИ</a>
+					</div>
+				</nav>
+			</div>
+		</div>
+
+		<div class="row small-map show-for-small-only">
+			<div class="small-12 columns">
+				<section class="">
+					<div class="">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d18439.988020633427!2d20.499403616392836!3d54.70964949092555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1396186580616" width="100%" height="100%" frameborder="0" style="border:0"></iframe>
+					</div>
+				</section>	
+			</div>
 		</div>
 		
-		<section class="show-for-small-only">
-			<div class="small-map">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d18439.988020633427!2d20.499403616392836!3d54.70964949092555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1396186580616" width="100%" height="100%" frameborder="0" style="border:0"></iframe>
-			</div>
-		</section>	
 
 
-		<div class="row wrapper wide-screen">
-
+		<div class="row wrapper">
 			<section class="small-12 medium-8 large-5 columns leftside-search">
-
 				<section class="panel filter-element radius">
 					<div class="row">	
 						<div class="small-12 columns">
@@ -168,7 +171,6 @@
 					</div>
 				</section>
 				
-
 				<section class="panel ad">
 					<a href="">
 						<div class="row ad__header">
@@ -186,15 +188,15 @@
 								<p class="ad__offer">Только сегодня, купи две пиццы и получи третию в подарок!</p>
 							</div>
 							<div class="small-3 columns hide-for-small-only">
-								<img class="ad__thumb" src="images/demo/kropotkin/meal-1/meal-1-thumb.jpg">
+								<a class="th radius" href="food-page.html">
+									<img class="" src="images/demo/kropotkin/meal-1/meal-1-thumb.jpg">
+								</a>
 							</div>
 						</div>
 					</a>
 				</section>
 
-
 				<section class="panel main-element radius">
-
 					<div class="row">
 						<div class="main-element__restuarant small-12 columns">
 							<a href=""><span>ресторан "Турандот"</span></a>
@@ -271,17 +273,16 @@
 					</div>
 				</section>
 
-				<section class="panel main-element">
+				<section class="panel main-element radius">
 					<div class="row">
-						<div class="small-12 medium-8 columns">
-							<div class="row">
-								<div class="main-element__restuarant small-6 columns">
-									<span>ресторан "Турандот"</span>
-								</div>
-								<div class="main-element__distantion small-6 columns">
-									<span style="float:right;">расстояние: 0,3 км</span>
-								</div>
-							</div>
+						<div class="main-element__restuarant small-12 columns">
+							<a href=""><span>ресторан "Турандот"</span></a>
+							<span class="main-element__distantion"><img src="images/icons/man.svg" alt=""> 0,3 км</span>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="small-12 medium-8 columns main-element__content">
 							<div class="row main-element__meal">
 								<div class="small-12 columns main-element__meal-name">
 									<a href="#">
@@ -317,8 +318,7 @@
 								</div>
 								<div class="small-3 columns main-element__rating main-element__rating-leftborder">
 									<div class="main-element__rating-price text-center">
-										<span class="label radius">$$$</span>
-									</div>
+										<span class="label radius">350 Р</span></div>
 								</div>
 							</div>
 							<div class="row">
@@ -342,7 +342,7 @@
 									</section>
 								</div>
 								<div class="small-12 columns">
-									<span class="main-element__friends-header">твои друзья пробовали это блюдо:</span>
+									<span class="main-element__friends-header">твои друзья оценили это блюдо:</span>
 									<div class="main-element__friends">
 										<span class="main-element__friends-avatar">
 											<img src="images/demo/friends/COWYA3GFYYVUP5TS.jpg" alt="">
@@ -358,28 +358,17 @@
 								
 							</div>
 						</div>
-						<div class="small-4 columns hide-for-small-only">
-							<a href="food-page.html">
-								<img class="search-page-thumb" src="images/demo/kropotkin/meal-1/meal-1-thumb.jpg">
+						<div class="small-4 columns search-page-thumb hide-for-small-only">
+							<a class="th radius" href="food-page.html">
+								<img class="" src="images/demo/kropotkin/meal-1/meal-1-thumb.jpg">
 							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="small-12 columns">
-							
 						</div>
 					</div>
 				</section>
 
-				
-				
 				<a href="#" class="fr-button button expand">Показать ещё</a>
-
-
-				
-					
-						
-			</section>
+		
+			</section><!-- leftside-search -->
 
 			<section class="small-12 medium-4 large-7 columns hide-for-small-only" style="width: 100%">
 				<div class="main-map">
