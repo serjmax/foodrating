@@ -10016,15 +10016,14 @@ header {
   width: 310px;
   margin-left: -155px;
   background-color: #fff;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding: 24px 20px;
 }
 
-/* line 10, ../scss/_login-block.scss */
+/* line 9, ../scss/_login-block.scss */
 .btn-vk,
 .btn-facebook {
   padding: 9px 18px;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   padding-left: 50px;
   position: relative;
   overflow: hidden;
@@ -10038,17 +10037,17 @@ header {
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.18), inset 0 0 1px 1px rgba(255, 255, 255, 0.09);
 }
 
-/* line 26, ../scss/_login-block.scss */
+/* line 25, ../scss/_login-block.scss */
 .btn-vk {
   background-color: #4d75a3;
 }
 
-/* line 29, ../scss/_login-block.scss */
+/* line 28, ../scss/_login-block.scss */
 .btn-facebook {
   background-color: #4063B3;
 }
 
-/* line 34, ../scss/_login-block.scss */
+/* line 33, ../scss/_login-block.scss */
 .btn-facebook:hover, .btn-facebook:focus {
   background-color: #4368BE;
   background-image: linear-gradient(#4368be, #405fa7);
@@ -10056,7 +10055,7 @@ header {
   color: white;
 }
 
-/* line 42, ../scss/_login-block.scss */
+/* line 41, ../scss/_login-block.scss */
 .btn-vk:hover, .btn-vk:focus {
   background-color: #5F80A7;
   background-image: linear-gradient(#5f80a7, #3d6a9c);
@@ -10064,33 +10063,33 @@ header {
   color: white;
 }
 
-/* line 49, ../scss/_login-block.scss */
+/* line 48, ../scss/_login-block.scss */
 .btn, select {
   display: inline-block;
   margin-bottom: 0;
   border-radius: 2px;
   text-align: center;
   vertical-align: middle;
-  font-weight: bold;
+  font-weight: 100;
   line-height: 1.4;
   user-select: none;
   white-space: nowrap;
   cursor: pointer;
 }
 
-/* line 62, ../scss/_login-block.scss */
+/* line 61, ../scss/_login-block.scss */
 .login-icon {
   border-right: 1px solid #40598B;
   line-height: 1;
   position: absolute;
-  top: -2px;
+  top: -3px;
   bottom: 0;
   left: 0px;
   font-size: 42px;
   width: 40px;
 }
 
-/* line 73, ../scss/_login-block.scss */
+/* line 72, ../scss/_login-block.scss */
 .vk-logo {
   background-image: url(../images/icons/vk.svg);
   background-size: 33px;
@@ -10098,12 +10097,12 @@ header {
   background-position: 3px 4px;
 }
 
-/* line 80, ../scss/_login-block.scss */
+/* line 79, ../scss/_login-block.scss */
 .devider {
   margin: 10px 0 0 0;
 }
 
-/* line 84, ../scss/_login-block.scss */
+/* line 83, ../scss/_login-block.scss */
 .forgot-password {
   font-size: 11px;
   margin-bottom: 10px;
