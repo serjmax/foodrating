@@ -31,8 +31,9 @@
 						</a>
 					</div>
 					<div class="small-4 columns hide-for-medium-up">
-						<a class="button tiny right">ВОЙТИ</a>
+						<a data-reveal-id="login-window" class="button tiny right">ВОЙТИ</a>
 					</div>
+
 					<div class="small-12 medium-6 large-4 columns">
 						<form>
 							<div class="row collapse">
@@ -46,7 +47,70 @@
 						</form>
 					</div>
 					<div class="small-12 medium-2 large-6 columns hide-for-small-only">
-						<a class="fr-button login-button right">ВОЙТИ</a>
+						<a data-reveal-id="login-window" class="fr-button login-button right">ВОЙТИ</a>
+					</div>
+					
+					<div id="login-window" class="reveal-modal login-block" data-reveal>
+			  			<div class="row">
+			  				<div class="small-12 columns">
+			  					<a href="" class="btn btn-facebook">
+			  						<span class="icon-container">
+			  						<i class="login-icon fi-social-facebook"></i>
+			  						</span>
+			  						<span class="text-container">
+			  						Войти через аккаунт Facebook
+			  					  </span>
+			  					</a>
+			  				</div>
+			  			</div>
+
+			  			<div class="row">
+			  				<div class="small-5 columns"><hr></div>
+			  				<div class="small-2 columns text-center devider">или</div>
+			  				<div class="small-5 columns"><hr></div>
+			  			</div>
+			  			
+			  			<div class="row">
+			  				<div class="small-12 columns">
+			  					<a href="" class="btn btn-vk">
+			  						<span class="icon-container">
+			  						<i class="login-icon vk-logo"></i>
+			  						</span>
+			  						<span class="text-container">
+			  						Войти через аккаунт Вконтакте
+			  					  </span>
+			  					</a>
+			  				</div>
+			  			</div>
+			  			
+			  			<div class="row">
+			  				<div class="small-5 columns"><hr></div>
+			  				<div class="small-2 columns text-center devider">или</div>
+			  				<div class="small-5 columns"><hr></div>
+			  			</div>
+
+			  			<form>
+			  			  <div class="row">
+			  				<div class="large-12 columns">
+			  					<input type="text" placeholder="Электронная почта">
+			  				</div>
+			  				<div class="large-12 columns">
+			  					<input type="text" placeholder="Пароль">
+			  				</div>
+			  				<div class="small-12 columns forgot-password">
+			  					<a href="" class="">Забыли пароль?</a>
+			  				</div>
+			  				<div class="small-12 columns">
+			  					<a href="" class="button expand radius tiny">Войти</a>
+			  				</div>
+			  			  </div>
+			  			</form>
+			  			<div class="row">
+			  				<div class="small-12 columns">
+			  					<div class="fb-login-button" data-max-rows="1" data-size="xlarge" data-show-faces="true" data-auto-logout-link="true">
+			  					</div>
+			  				</div>
+			  			</div>
 					</div>
 				</nav>
 			</div>
@@ -75,7 +139,7 @@
 							<ul class="inline-list">
 								<li class="">
 									<a href="#" data-reveal-id="myModal" class="fr-button filter-element__button">фильтр</a>
-									<div id="myModal" class="reveal-modal xlarge" data-reveal style="top: 10px">
+									<div id="myModal" class="reveal-modal xlarge" data-reveal>
 										<section class="row filter">
 											<h2>Расширенный поиск</h2>
 											<div style="top: 10px;" class="small-7 columns">выбрано: 0 блюд</div>
@@ -215,7 +279,7 @@
 								<div class="small-3 columns main-element__rating">
 									<div class="main-element__rating-box">
 										<div class="main-element__rating-rating">
-											<svg fill="FFF" width="25px" height="24px" viewBox="-2 4 50 40" enable-background="new 0 0 47 61.725" xml:space="preserve">
+											<svg fill="white" width="25px" height="24px" viewBox="-2 4 50 40" enable-background="new 0 0 47 61.725" xml:space="preserve">
 												<g>
 													<path stroke="#FF0000" stroke-width="2" stroke-miterlimit="10" d="M46,23.5C46,35.919,35.921,46,23.5,46
 														C11.08,46,1,35.919,1,23.5S11.08,1,23.5,1C35.921,1,46,11.081,46,23.5z"></path>
@@ -292,7 +356,7 @@
 								<div class="small-3 columns main-element__rating">
 									<div class="main-element__rating-box">
 										<div class="main-element__rating-rating">
-											<svg fill="FFF" width="25px" height="24px" viewBox="-2 4 50 40" enable-background="new 0 0 47 61.725" xml:space="preserve">
+											<svg fill="white" width="25px" height="24px" viewBox="-2 4 50 40" enable-background="new 0 0 47 61.725" xml:space="preserve">
 												<g>
 													<path stroke="#FF0000" stroke-width="2" stroke-miterlimit="10" d="M46,23.5C46,35.919,35.921,46,23.5,46
 														C11.08,46,1,35.919,1,23.5S11.08,1,23.5,1C35.921,1,46,11.081,46,23.5z"></path>

@@ -18,21 +18,13 @@ $border-color: #CCCCCC;
 	}
 }
 
-.fr-button{
-  @include button($padding:$button-tny, $bg:$primary-color, $radius:true);
-  
-  border-width: 1px;
-  background: linear-gradient(to top, #007AFF, #43B3FD);
-  box-shadow: inset 0px 1px #A7D1FF;
-}
-
 .top-bar{
-	ul{
-		margin-left: 0;
-	}
-	li{
-		margin-left: 0;
-	}
+  ul{
+    margin-left: 0;
+  }
+  li{
+    margin-left: 0;
+  }
 }
 
 #search-top-container{
@@ -451,16 +443,12 @@ header{
 			font-weight: 500;
 			margin-bottom: 20px;
 			margin-top: 20px;
-			font-size: 1rem;
 		}
 		color: #808080;
 	}
 	a:focus,
 	a:hover{
 		text-decoration: underline;
-	}
-	p{
-		font-size: 0,8rem !important;
 	}
 }
 
@@ -930,15 +918,17 @@ header{
 
 		@media only screen and (max-width: 64em){
 			padding: 15px 8px;
+			font-size: 15px;
 		}
 	}
 
 	.food-description__cafe__name{
-		padding: 34px 8px;
 		font-size: 25px;
+		line-height: 1.4;
 
 		@media only screen and (max-width: 64em){
 			padding: 15px 8px;
+			font-size: 15px;
 		}
 	}
 
@@ -1111,10 +1101,15 @@ header{
 	}
 
 	.rate-panel__face-1{
-		background: url(../images/icons/icon-ratefaces.svg) 8px 0;
-		height: 47px;
-		width: 45px;
-		background-repeat: no-repeat;
+		img{
+			max-width: none;
+		}
+		
+		.smile{
+			overflow: hidden;
+			width: 39px;
+			height: 39px;
+		}
 	}
 	.rate-panel__face-2{
 		background: url(../images/icons/icon-ratefaces.svg) -37px 0;
@@ -1192,6 +1187,10 @@ header{
 		width: 100%;
 		height: 50%;
 		transform: translate(-50%, -50%);
+		-webkit-transform: translate(-50%, -50%);
+		-moz-transform: translate(-50%, -50%);
+  		-ms-transform: translate(-50%, -50%);
+  		-o-transform: translate(-50%, -50%);
 	}
 
 	.map-panel__adress-adress{
@@ -1201,6 +1200,10 @@ header{
 		// width: 70%;
 		height: 50%;
 		transform: translate(0%, -50%);
+		-webkit-transform: translate(0%, -50%);
+		-moz-transform: translate(0%, -50%);
+  		-ms-transform: translate(0%, -50%);
+  		-o-transform: translate(0%, -50%);
 
 		ul{
 			margin: 0;
@@ -1208,6 +1211,10 @@ header{
 			top: 50%;
 			width: 95%;
 			transform: translate(0%, -50%);
+			-webkit-transform: translate(0%, -50%);
+			-moz-transform: translate(0%, -50%);
+  			-ms-transform: translate(0%, -50%);
+  			-o-transform: translate(0%, -50%)
 		}
 	}
 
@@ -1218,6 +1225,10 @@ header{
 		height: 30px;
 		/* background-color: #127512; */
 		transform: translate(0%, -50%);
+		-webkit-transform: translate(0%, -50%);
+		-moz-transform: translate(0%, -50%);
+  		-ms-transform: translate(0%, -50%);
+  		-o-transform: translate(0%, -50%);
 
 		img{
 			position: absolute;
@@ -1226,6 +1237,10 @@ header{
 			width: 30%;
 			height: 30px;
 			transform: translate(0%, -50%);
+			-webkit-transform: translate(0%, -50%);
+			-moz-transform: translate(0%, -50%);
+  			-ms-transform: translate(0%, -50%);
+  			-o-transform: translate(0%, -50%)
 		}
 	}
 }
